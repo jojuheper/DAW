@@ -1,0 +1,25 @@
+<!--
+Práctica 5. Desarrolla una web sencilla con tres botones que permitan al usuario
+seleccionar entre tres idiomas (p.ej., español, francés e inglés). Modifica dichos botones
+para que al pulsarlos (onclick = “código javascript”) se genere una ventana de alerta con
+el texto “Bienvenido” en el idioma correspondiente y además, se imprima en la consola
+la selección del usuario (emplea el comando console.log(‘texto’)). Recuerda que puedes
+separar el código javascript mediante saltos de líneas pero también con ; en la misma
+línea.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>U.D.1 Practice 5</title>
+  </head>
+  <body>
+    <div>
+      <button type="button" onclick="languageAlert('es')">Español</button>
+      <button type="button" onclick="languageAlert('en')">English</button>
+      <button type="button" onclick="languageAlert('de')">Deutsch</button>
+    </div>
+    <script src="./language.js"></script>
+  </body>
+</html>

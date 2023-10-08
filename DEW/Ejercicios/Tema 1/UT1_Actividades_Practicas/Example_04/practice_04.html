@@ -1,0 +1,56 @@
+<!--
+Elabora un cuestionario de 7 preguntas con dos botones cada una
+(verdadero/falso) de modo que el color del texto cambie a verde (acierto) o rojo (error).
+Para ello tendrás que escribir dos funciones (una para verdadero y otra para falso) y
+darle un valor de entrada function(x){“resultado”}.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./style-quiz.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <p>Questionario:</p>
+    </div>
+    <div>
+      <p id="q1">1. ¿La tierra es redonda?</p>
+      <button type="button" onclick="OK('q1')">Verdadero</button>
+      <button type="button" onclick="KO('q1')">Falso</button>
+    </div>
+    <div>
+      <p id="q2">2. ¿La Manzana es roja?</p>
+      <button type="button" onclick="OK('q2')">Verdadero</button>
+      <button type="button" onclick="KO('q2')">Falso</button>
+    </div>
+    <div>
+      <p id="q3">3. ¿El árbol es verde?</p>
+      <button type="button" onclick="OK('q3')">Verdadero</button>
+      <button type="button" onclick="KO('q3')">Falso</button>
+    </div>
+    <div>
+      <p id="q4">4. ¿Los pajaros vuelan?</p>
+      <button type="button" onclick="OK('q4')">Verdadero</button>
+      <button type="button" onclick="KO('q4')">Falso</button>
+    </div>
+    <div>
+      <p id="q5">5. ¿El mar es azul?</p>
+      <button type="button" onclick="OK('q5')">Verdadero</button>
+      <button type="button" onclick="KO('q5')">Falso</button>
+    </div>
+    <div>
+      <p id="q6">6. ¿La lluvia moja?</p>
+      <button type="button" onclick="OK('q6')">Verdadero</button>
+      <button type="button" onclick="KO('q6')">Falso</button>
+    </div>
+    <div>
+      <p id="q7">7. ¿Los gorilas comen plátanos?</p>
+      <button type="button" onclick="OK('q7')">Verdadero</button>
+      <button type="button" onclick="KO('q7')">Falso</button>
+    </div>
+  </body>
+</html>
