@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rombo de emoticonos</title>
+  </head>
+  <body>
+    <div id="rombo" style="text-align: center"></div>
+    <div id="" style="text-align: center; margin-top: 30px">
+      <div>
+        <span>Numero de filas</span>
+        <input type="text" id="inputRhombus" />
+      </div>
+      <div id="rhombusClient" style="text-align: center; margin-top: 15px;"></div>
+    </div>
+
+    <script>
+      function dibujarRombo(filas) {
+        let output = "";
+
+        //Parte creciente del rombo:
+        for (let i = 1; i <= filas; i++) {
+          let linea = "";
+          for (let j = 1; j <= 2 * i - 1; j++) {
+            linea += "*";
+          }
+          output += linea + "<br>";
+        }
+
+        //Parte decreciente del rombo:
+        for (let i = filas - 1; i >= 1; i--) {
+          let linea = "";
+          for (let j = 1; j <= 2 * i - 1; j++) {
+            linea += "*";
+          }
+          output += linea + "<br>";
+        }
+        document.getElementById("rombo").innerHTML = output;
+      }
+      dibujarRombo(15); //Ejecutamos la función.
+    </script>
+    <script src="./rombo.js"></script>
+  </body>
+</html>

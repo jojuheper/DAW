@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <p style="text-decoration: underline;">Area and Perimeter of Circle with Radio 5m</p>
+      <div>
+        <span>Area:</span>
+        <span id="areaFixed"></span>
+      </div>
+      <div>
+        <span>Perimeter:</span>
+        <span id="perimeterFixed"></span>
+      </div>
+      <div style="margin-top: 10px;">
+        <button onclick="calculateFixed()">Calculate</button>
+      </div>
+    </div>
+    <div>
+      <p style="text-decoration: underline;">Area and Perimeter of Circle</p>
+      <div>
+        <span>Radio:</span>
+        <input type="text" id="radioInput" />
+      </div>
+      <div>
+        <span>Area:</span>
+        <span id="areaClient"></span>
+      </div>
+      <div>
+        <span>Perimeter:</span>
+        <span id="perimeterClient"></span>
+      </div>
+      <div style="margin-top: 10px;">
+        <button onclick="calculateByClient()">Calculate</button>
+      </div>
+    </div>
+    <script src="./areaPerimeterCircle.js"></script>
+  </body>
+</html>
