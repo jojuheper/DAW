@@ -1,0 +1,37 @@
+#numero1-if, #numero2-if, #resultado-if, #numero1-switch, #numero2-switch, #resultado-switch {
+    text-align: center;
+}
+
+.calculadora-container{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.calculadora-center{
+    display: flex;
+    width: 50%;
+}
+
+.calculadora-if, .calculadora-switch{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+
+@media (max-width: 1259px) {
+    .calculadora-center{
+        flex-direction: column;
+    }
+    .calculadora-if, .calculadora-switch{
+        text-align: center;
+    }
+}

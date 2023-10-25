@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./conditionals.css">
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="calculadora-container">
+		<div class="calculadora-center">
+		<div class="calculadora-if">
+			<h1>Calculadora Simple If</h1>
+			<br />
+			<form id="#">
+			  <label for="numero1-if"
+				>Número 1:
+				<input type="number" id="numero1-if" name="numero1" required />
+			  </label>
+			  <br /><br />
+			  <label for="numero2-if"
+				>Número 2:
+				<input type="number" id="numero2-if" name="numero2" required />
+			  </label>
+			  <br /><br />
+			  <div class="buttons">
+				<button type="button" onclick="ifElseConditional('+')">+</button>
+				<button type="button" onclick="ifElseConditional('-')">-</button>
+				<button type="button" onclick="ifElseConditional('*')">&times;</button>
+				<button type="button" onclick="ifElseConditional('\/')">÷</button>
+			  </div>
+			</form>
+	  
+			<p>
+			  Resultado:
+			  <input type="text" id="resultado-if" readonly />
+			</p>
+		</div>
+		<div class="calculadora-switch">
+			<h1>Calculadora Simple Switch</h1>
+			<br />
+			<form>
+			  <label for="numero1-switch"
+				>Número 1:
+				<input type="number" id="numero1-switch" name="numero1" required />
+			  </label>
+			  <br /><br />
+			  <label for="numero2-switch"
+				>Número 2:
+				<input type="number" id="numero2-switch" name="numero2" required />
+			  </label>
+			  <br /><br />
+			  <div class="buttons">
+				<button type="button" onclick="switchConditional('+')">+</button>
+				<button type="button" onclick="switchConditional('-')">-</button>
+				<button type="button" onclick="switchConditional('*')">&times;</button>
+				<button type="button" onclick="switchConditional('\/')">÷</button>
+			  </div>
+			</form>
+	  
+			<p>
+			  Resultado:
+			  <input type="text" id="resultado-switch" readonly />
+			</p>
+		</div>
+	</div>
+    </div>
+	<script src="./conditionals.js"></script>
+  </body>
+</html>
