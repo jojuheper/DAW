@@ -22,6 +22,7 @@ let aFirstPosition = 0,
     aLastPosition = 0,
     age = 0;
 
+// paint all the result and required information to show in new tab
 function drawParameterNewWindow() {
     newPage.document.write("<h3>Ejemplo de Ventana Nueva</h3>");
     newPage.document.write("<hr/>");
@@ -39,14 +40,16 @@ function drawParameterNewWindow() {
     );
 }
 
+// when user do clic in our primary window or tab exceute the whole code
 function changeVisibility() {
     const calculateAge = (day, month, year) => {
+        // set userDate as a Date (like a parse String to Date)
         const inputDate = `${year}-${month}-${day}`;
         const userDate = new Date(inputDate);
         const currentDate = new Date();
         let age = currentDate.getFullYear() - userDate.getFullYear();
 
-        // 
+        // calculate exactly the birthday
         if (
             currentDate.getMonth() < userDate.getMonth() ||
             (currentDate.getMonth() === userDate.getMonth() && currentDate.getDate() < userDate.getDate())
@@ -56,17 +59,22 @@ function changeVisibility() {
 
         return age;
     }
+    // take title 
     const drawTitle = () => {
         document.write(`<h1>TAREA DWEC03</h1>`);
         document.write(`<hr/>`);
     };
+    // user Data
     const askData = () => {
         userName = prompt("Introduzca su nombre y apellidos");
         day = prompt("Introduzca DIA de nacimiento");
         month = prompt("Introduzca MES de nacimiento");
         year = prompt("Introduzca AÑO de nacimiento");
     };
+    // put in Body data of user
     const paintBody = () => {
+        // different checking of user variables
+        // userName
         if (userName != null) {
             document.write(`Buenos dias ${userName}`);
             document.write("<br/>");
@@ -84,6 +92,7 @@ function changeVisibility() {
                 `Tu nombre todo en mayúsculas es: ${userName.toUpperCase()}`
             );
         }
+        // date of birth
         if (day != null && month != null && year != null) {
             let age = calculateAge(day, month, year);
             document.write("<br/>");
@@ -98,6 +107,8 @@ function changeVisibility() {
             document.write(`Ejemplo de número al azar: ${Math.floor(Math.random() * 100) + 1}`);
         }
     };
+    // this function is activate when the user
+    // activate the tab
     if (!document.hidden) {
         askData();
         drawTitle();
@@ -105,6 +116,7 @@ function changeVisibility() {
     }
 }
 
+// check if the name have "A" vocal and show different options
 function aPositionInName() {
     if (userName.includes("a")) {
         document.write(
@@ -119,12 +131,16 @@ function aPositionInName() {
     }
 }
 
+// about actual tab or window
 function actualWindow() {
+    // when user clic primary tab call the function
     window.addEventListener("visibilitychange", changeVisibility);
 }
 
+// this anonimous function call itself
 (() => {
     const initPage = () => {
+        // call new windows, in this case new tab
         const newWindow = () => drawParameterNewWindow();
         const init = () => {
             newPage = window.open("", "_blank");
@@ -134,5 +150,6 @@ function actualWindow() {
         // start the process
         init();
     };
+    // add listener when document is loaded and start all the process
     document.addEventListener("DOMContentLoaded", initPage);
 })();
