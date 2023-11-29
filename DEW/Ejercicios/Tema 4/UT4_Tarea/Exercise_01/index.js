@@ -35,7 +35,7 @@ let addOwner = function (ownerName, floor, door) {
     let message = '';
     if (f > 0 && d > 0) {
         if (this.floors[floor - 1][door - 1].ownerDoor == null) {
-            let answerByOwner = confirm('Desea cambiar el propietario?');
+            let answerByOwner = confirm('Desea agregar el propietario?');
             answerByOwner
                 ? message = `${ownerName} es ahora el propietario en la planta ${floor} de la puerta ${door}.`
                 : message = `La puerta ${door} en la planta ${floor} esta ocupada`;
