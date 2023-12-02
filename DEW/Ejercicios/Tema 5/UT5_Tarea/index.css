@@ -1,18 +1,16 @@
-input.valid {
-    border: 1px solid #28a745;
-    color: #28a745;
-    background-color: #d4edda;
-    border-radius: .2rem;
-  }
-input.invalid {
-    border: 1px solid #dc3545;
-    color: #dc3545;
-    background-color: #f8d7da;
-    border-radius: .420rem;
-  }
+span.valid {
+  color: #28a745;
+  background-color: #d4edda;
+  border-radius: 0.2rem;
+}
+span.invalid {
+  color: #dc3545;
+  background-color: #f8d7da;
+  border-radius: 0.42rem;
+}
 
-  .error{
-    display: none;
-    color: #dc3545;
-    margin-bottom: .373rem;
-  }
+.error {
+  display: none;
+  color: #dc3545;
+  margin-bottom: 0.373rem;
+}

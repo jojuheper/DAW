@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -15,13 +15,12 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Document</title>
   </head>
   <body>
     <div class="container m-5">
-      <div id="error" class="error">
-        * Revisar los campos que estan rojo
-      </div>
+      <div id="error" class="error">* Revisar los campos que estan rojo</div>
       <form
         class="needs-validation"
         name="contactForm"
@@ -30,7 +29,9 @@
       >
         <div class="input-group mb-3 row g-3">
           <div class="col-6">
-            <span class="input-group-text col-md-3">Name</span>
+            <span id="userNameSpan" class="input-group-text col-md-3"
+              >Name</span
+            >
             <input
               type="text"
               id="userName"
@@ -43,7 +44,9 @@
             />
           </div>
           <div class="col-6">
-            <span class="input-group-text col-md-3">Surname</span>
+            <span id="userSurnameSpan" class="input-group-text col-md-3"
+              >Surname</span
+            >
             <input
               type="text"
               id="userSurname"
@@ -58,7 +61,7 @@
 
         <div class="input-group mb-3 row g-3">
           <div class="col-6">
-            <span class="input-group-text col-md-3">Edad</span>
+            <span id="userAgeSpan" class="input-group-text col-md-3">Edad</span>
             <input
               type="text"
               id="userAge"
@@ -70,7 +73,7 @@
             />
           </div>
           <div class="col-6">
-            <span class="input-group-text col-md-3">NIF</span>
+            <span id="userNIFSpan" class="input-group-text col-md-3">NIF</span>
             <input
               type="text"
               id="userNIF"
@@ -85,7 +88,9 @@
 
         <div class="input-group mb-3 row g-3">
           <div class="col-md-6">
-            <span class="input-group-text col-md-3">Email</span>
+            <span id="userEmailSpan" class="input-group-text col-md-3"
+              >Email</span
+            >
             <div class="input-group">
               <span class="input-group-text" id="basic-addon3"
                 >example@example.com</span
@@ -100,7 +105,9 @@
             </div>
           </div>
           <div class="col-md-6">
-            <span class="input-group-text col-md-3">Provincia</span>
+            <span id="userProvinceSpan" class="input-group-text col-md-3"
+              >Provincia</span
+            >
             <div class="input-group">
               <select
                 class="form-select"
@@ -168,7 +175,9 @@
 
         <div class="input-group mb-3 row g-3">
           <div class="col-6">
-            <span class="input-group-text col-md-3">Fecha</span>
+            <span id="userDateSpan" class="input-group-text col-md-3"
+              >Fecha</span
+            >
             <input
               type="text"
               id="userDate"
@@ -180,7 +189,9 @@
             />
           </div>
           <div class="col-6">
-            <span class="input-group-text col-md-3">Telefono</span>
+            <span id="userPhoneSpan" class="input-group-text col-md-3"
+              >Telefono</span
+            >
             <input
               type="text"
               id="userPhone"
@@ -194,7 +205,9 @@
         </div>
         <div class="input-group mb-3 row g-3">
           <div class="col-6">
-            <span class="input-group-text col-md-3">Hora</span>
+            <span id="userHourSpan" class="input-group-text col-md-3"
+              >Hora</span
+            >
             <input
               type="text"
               id="userHour"
@@ -206,7 +219,9 @@
             />
           </div>
           <div class="col-6">
-            <span class="input-group-text col-md-3">Intentos</span>
+            <span id="userAttemptsSpan" class="input-group-text col-md-3"
+              >Intentos</span
+            >
             <input
               type="text"
               id="userAttempts"
