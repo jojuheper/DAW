@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="/medusa/eforma/campus/ruxitagentjs_ICA2NVfqru_10279231130031246.js" data-dtconfig="rid=RID_-897910915|rpid=-1214716790|domain=gobiernodecanarias.org|reportUrl=/medusa/eforma/campus/rb_bf29001mpg|app=6f32243ee21d715c|cuc=o9ygw9x5|mel=100000|featureHash=ICA2NVfqru|dpvc=1|ssv=4|lastModification=1704989648487|vcv=2|tp=500,50,0,1|rdnt=1|uxrgce=1|bp=3|agentUri=/medusa/eforma/campus/ruxitagentjs_ICA2NVfqru_10279231130031246.js"></script><link rel="stylesheet" href="style.css">
+    <title>2DAWs - Examen Práctico Final. Ejercicio 2.</title>
+<link rel="stylesheet" type="text/css" href="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.css"/><script  type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cookieconsent.min.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/cookies/cauce_cookie.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-base.js"></script><script type="text/javascript" src="https://www3.gobiernodecanarias.org/educacion/cau_ce/estadisticasweb/scripts/piwik-eforma.js"></script></head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <!-- Bloque 1: Agregar Vehículo -->
+            <div class="create-car-form">
+                <h2 style="font-size: 18px;">Nuevo Vehículo</h2>
+                <form id="registro">
+                    <label for="marca">Marca:</label>
+                    <input type="text" id="marca" name="marca" placeholder="Marca" required>
+
+                    <label for="modelo">Modelo:</label>
+                    <input type="text" id="modelo" name="modelo" placeholder="Modelo" required>
+
+                    <label for="color">Color:</label>
+                    <input type="text" id="color" name="color" placeholder="Color" required>
+
+                    <label for="anho">Año:</label>
+                    <input type="text" id="anho" name="anho" placeholder="Año" required>
+
+                    <label for="matricula">Matrícula:</label>
+                    <input type="text" id="matricula" name="matricula" placeholder="Matrícula" required>
+
+                    <button id="crearnuevo">Crear vehículo</button>
+                </form>
+            </div>
+        </div>
+        <div class="main-content">
+        <!-- Bloque 2: Visualizar y Modificar Vehículo -->
+            <div>
+                <div class="section-header">
+                    <h2 style="font-size: 18px;">Datos del vehículo</h2>
+                </div>
+                <form>
+                    <textarea id="datosvehiculo" name="datosvehiculo" rows="8" placeholder="Datos vehículo"></textarea>
+
+                <div class="modification-buttons">
+                    <h2 style="font-size: 16px;">Modificar:</h2>
+                    <button type="button" id="modificarMarca">Marca</button>
+                    <button type="button" id="modificarModelo">Modelo</button>
+                    <button type="button" id="modificarColor">Color</button>
+                    <button type="button" id="modificarAnho">Año</button>
+                    <button type="button" id="modificarMatricula">Matrícula</button>
+                </div>
+                </form>
+            </div>
+
+            <!-- Bloque 3: Detalles -->
+            <div>
+                <div class="section-header">
+                    <h2 style="font-size: 18px;">Observaciones del vehículo</h2>
+                </div>
+                <textarea id="observaciones" name="observaciones" rows="10" placeholder="Observaciones"></textarea>
+            <div>
+                <button type="button" id="agregarObs">Agregar Observaciones</button>
+                <button type="button" id="limpiar">Limpiar ventana</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
