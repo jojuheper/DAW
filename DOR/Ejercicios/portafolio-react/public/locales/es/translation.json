@@ -1,0 +1,10 @@
+{
+    "header": {
+        "navbar": {
+            "home": "inicio",
+            "about": "sobre mi",
+            "project": "proyectos",
+            "contact": "contacto"
+        }
+    }
+}

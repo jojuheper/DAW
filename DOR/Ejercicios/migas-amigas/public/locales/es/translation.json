@@ -1,0 +1,60 @@
+{
+  "titleApp": "Proyecto \"Migas Amigas\"",
+  "titlePrincipalPage": "Esta es la página principal",
+  "header": {
+    "titleHeader": "panadería"
+  },
+  "homepage": {
+    "navlink": "inicio",
+    "titleInitPage": "Esta es la página de Inicio",
+    "product": {
+      "title": "productos",
+      "name": {
+        "bread": "pan",
+        "pastry": "bolleria",
+        "empanada": "empanada"
+      },
+      "description": {
+        "bread": "Crujiente y sabroso",
+        "pastry": "Fresco y recién hecho",
+        "empanada": "Empieza la mañana diferente"
+      }
+    }
+  },
+  "bakery": {
+    "navlink": "panadería",
+    "titleBakery": "Esta es la página de panadería"
+  },
+  "patisserie": {
+    "navlink": "bollería",
+    "titlePatisserieBoulangerie": "Esta es la página de Pastelería-Bollería"
+  },
+  "empanada": {
+    "navlink": "empanada",
+    "titleEmpanada": "Esta es la página de Empanadas"
+  },
+  "work": {
+    "title": "trabaja con nosotros"
+  },
+  "contactPage": {
+    "navlink": "contacto",
+    "titleContact": "Esta es la página de contacto",
+    "form": {
+      "fullname": "Nombre y Apellido",
+      "email": "Dirección de correo",
+      "message": "Mensaje"
+    }
+  },
+  "errorPage": {
+    "titleError404": "Esta es la página de Error 404"
+  },
+  "footer": {
+    "titleFooter": "panadería",
+    "titleMenu": "menu",
+    "copyright": "migas-amigas"
+  },
+  "privacy": {
+    "policy": "Autorizo la recogida y el tratamiento de los datos personales facilitados en el presente formulario para los fines descritos en el mismo y en la Política de Privacidad.",
+    "communication": "Acepto recibir comunicaciones comerciales de productos y servicios de COMPAÑÍA."
+  }
+}

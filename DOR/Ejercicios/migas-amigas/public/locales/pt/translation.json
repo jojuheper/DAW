@@ -1,0 +1,60 @@
+{
+  "titleApp": "Projeto \"migalhas Migalhas\"",
+  "titlePrincipalPage": "Esta é a página principal",
+  "header": {
+    "titleHeader": "padaria"
+  },
+  "homepage": {
+    "navlink": "casa",
+    "titleInitPage": "Esta é a página inicial",
+    "product": {
+      "title": "produtos",
+      "name": {
+        "bread": "pão",
+        "pastry": "doces",
+        "empanada": "tarte"
+      },
+      "description": {
+        "bread": "Crocante e saboroso",
+        "pastry": "Fresco e acabado de fazer",
+        "empanada": "Começar a manhã de forma diferente"
+      }
+    }
+  },
+  "bakery": {
+    "navlink": "padaria",
+    "titleBakery": "Esta é a página da padaria"
+  },
+  "patisserie": {
+    "navlink": "bolos",
+    "titlePatisserieBoulangerie": "Esta é a página da Pastelaria-Boulangerie"
+  },
+  "empanada": {
+    "navlink": "tarte",
+    "titleEmpanada": "Esta é a página das Empanadas"
+  },
+  "work": {
+    "title": "trabalhar connosco"
+  },
+  "contactPage": {
+    "navlink": "contacto",
+    "titleContact": "Esta é a página de contacto",
+    "form": {
+      "fullname": "Nome e apelido",
+      "email": "Endereço de correio eletrónico",
+      "message": "Mensagem"
+    }
+  },
+  "errorPage": {
+    "titleError404": "Esta é a página de erro 404"
+  },
+  "footer": {
+    "titleFooter": "padaria",
+    "titleMenu": "menu",
+    "copyright": "migalhas-amigos"
+  },
+  "privacy": {
+    "policy": "Autorizo a recolha e o tratamento dos dados pessoais fornecidos no presente formulário para os fins descritos no presente formulário e na Política de Privacidade.",
+    "communication": "Aceito receber comunicações comerciais sobre os produtos e serviços da EMPRESA."
+  }
+}
