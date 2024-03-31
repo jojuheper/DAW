@@ -1,5 +1,5 @@
 {
-  "titleApp": "Projeto \"migalhas Migalhas\"",
+  "titleApp": "Projeto \"Migalhas Migalhas\"",
   "titlePrincipalPage": "Esta é a página principal",
   "header": {
     "titleHeader": "padaria"
@@ -42,7 +42,8 @@
     "form": {
       "fullname": "Nome e apelido",
       "email": "Endereço de correio eletrónico",
-      "message": "Mensagem"
+      "message": "Mensagem",
+      "error": "É necessário introduzir os campos corretamente"
     }
   },
   "errorPage": {
@@ -56,5 +57,11 @@
   "privacy": {
     "policy": "Autorizo a recolha e o tratamento dos dados pessoais fornecidos no presente formulário para os fins descritos no presente formulário e na Política de Privacidade.",
     "communication": "Aceito receber comunicações comerciais sobre os produtos e serviços da EMPRESA."
+  },
+  "product": {
+    "table": {
+      "caption": "\"Migalhas-Migalhas\"",
+      "summary": "A nossa lista de produtos em cada sector"
+    }
   }
 }

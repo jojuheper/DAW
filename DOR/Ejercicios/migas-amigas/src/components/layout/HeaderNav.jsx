@@ -19,7 +19,7 @@ export const HeaderNav = () => {
   return (
     <div className="">
       <div className="">
-        <h1>{t("header.titleHeader")}</h1>
+        <h1 className="fw-bold">{t("header.titleHeader")}</h1>
       </div>
       <Navbar />
       <select

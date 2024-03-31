@@ -18,61 +18,73 @@ export const Contact = () => {
       <div>
         <form className="">
           <div className="mb-3 ">
-            <label htmlFor="exampleInputEmail1" className="form-label">
-              {t("contactPage.form.fullname")}
+            <label htmlFor="fullname" className="form-label">
+              {t("contactPage.form.fullname")} *
             </label>
             <input
               type="text"
               className="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
+              id="fullname"
+              aria-describedby="nameHelp"
               placeholder="full name"
-              />
+              aria-invalid="true"
+              required
+            />
           </div>
           <div className="mb-3 ">
-            <label htmlFor="exampleInputEmail1" className="form-label">
-              {t("contactPage.form.email")}
+            <label htmlFor="email" className="form-label">
+              {t("contactPage.form.email")} *
             </label>
             <input
               type="email"
               className="form-control"
-              id="exampleInputEmail1"
+              id="email"
               aria-describedby="emailHelp"
               placeholder="email@email.com"
-              />
+              aria-invalid="true"
+              required
+            />
           </div>
           <div className="mb-3">
-            <label htmlFor="exampleInputPassword1" className="form-label">
-              {t("contactPage.form.message")}
+            <label htmlFor="message" className="form-label">
+              {t("contactPage.form.message")} *
             </label>
             <textarea
               type="textarea"
               className="form-control"
-              id="exampleInputPassword1"
+              id="message"
               placeholder="Your Message Here"
+              aria-invalid="true"
+              required
             />
           </div>
           <div className="mb-3 form-check">
             <input
               type="checkbox"
               className="form-check-input"
-              id="exampleCheck1"
+              id="privacyPolicy"
+              required
             />
-            <label className="form-check-label" htmlFor="exampleCheck1">
-              {t("privacy.policy")}
+            <label className="form-check-label" htmlFor="privacyPolicy">
+              {t("privacy.policy")} *
             </label>
           </div>
           <div className="mb-3 form-check">
             <input
               type="checkbox"
               className="form-check-input"
-              id="exampleCheck1"
+              id="privacyCommunication"
             />
-            <label className="form-check-label" htmlFor="exampleCheck1">
+            <label className="form-check-label" htmlFor="privacyCommunication">
               {t("privacy.communication")}
             </label>
           </div>
-          <button type="submit" className="btn btn-primary">
+          <button
+            type="submit"
+            name="contactForm"
+            value="contactForm"
+            className="btn btn-primary"
+          >
             Submit
           </button>
         </form>

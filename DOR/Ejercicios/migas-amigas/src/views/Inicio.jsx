@@ -8,7 +8,7 @@ export const Inicio = () => {
     <div>
       <div>
         <div>
-          <h1>{t("homepage.titleInitPage")}</h1>
+          <h1 className="fw-bold">{t("homepage.titleInitPage")}</h1>
         </div>
         <div>
           <img src="https://placehold.co/800x600" alt="header" />

@@ -42,7 +42,8 @@
     "form": {
       "fullname": "Nombre y Apellido",
       "email": "Dirección de correo",
-      "message": "Mensaje"
+      "message": "Mensaje",
+      "error": "Debe ingresar bien los campos"
     }
   },
   "errorPage": {
@@ -56,5 +57,11 @@
   "privacy": {
     "policy": "Autorizo la recogida y el tratamiento de los datos personales facilitados en el presente formulario para los fines descritos en el mismo y en la Política de Privacidad.",
     "communication": "Acepto recibir comunicaciones comerciales de productos y servicios de COMPAÑÍA."
+  },
+  "product": {
+    "table": {
+      "caption": "\"Migas-Amigas\"",
+      "summary": "Nuestra lista de productos de cada sector"
+    }
   }
 }

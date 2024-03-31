@@ -12,7 +12,7 @@ export const Footer = () => {
     <div>
       <div>
         <div>
-          <div>{t("footer.titleFooter")}</div>
+          <div className="fw-bold">{t("footer.titleFooter")}</div>
           <div>
             <SocialLink />
           </div>

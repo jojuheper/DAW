@@ -4,7 +4,7 @@ export const Principal = () => {
   const { t } = useTranslation(['translation']);
   return (
     <div>
-      <h1>{t("titlePrincipalpage")}</h1>
+      <h1 className="fw-bold">{t("titlePrincipalpage")}</h1>
     </div>
   );
 };

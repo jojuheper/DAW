@@ -6,7 +6,7 @@ export const Contacto = () => {
 
   return (
     <div>
-      <h1>{t("contactPage.titleContact")}</h1>
+      <h1 className="fw-bold">{t("contactPage.titleContact")}</h1>
       <Contact />
     </div>
   );
