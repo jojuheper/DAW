@@ -25,8 +25,8 @@ export const HeaderNav = () => {
       <select
         defaultValue={i18n.language}
         onChange={onChangeLang}
-        name=""
-        id=""
+        name="language"
+        id="languageSelect"
       >
         {langs.map(({ code, label }) => (
           <option key={code} value={code}>

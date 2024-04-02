@@ -11,8 +11,9 @@ export const SelectLanguage = () => {
       <select
         defaultValue={i18n.language}
         onChange={onChangeLang}
-        name=""
-        id=""
+        aria-label="languageSelect"
+        name="languageSelect"
+        id="languageSelect"
       >
         {LANGUAGE.map(({ code, label }) => (
           <option key={label} value={code}>

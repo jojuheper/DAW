@@ -4,7 +4,7 @@ import { Navbar } from "./Navbar";
 export const Header = () => {
   return (
     <div>
-      <div>Header</div>
+      <h1>Header</h1>
       <Navbar />
       <SelectLanguage />
     </div>

@@ -1,10 +1,43 @@
 {
-    "header": {
-        "navbar": {
-            "home": "home",
-            "about": "about",
-            "project": "project",
-            "contact": "contact"
-        }
+  "header": {
+    "navbar": {
+      "home": "home",
+      "about": "about",
+      "project": "project",
+      "contact": "contact"
     }
+  },
+  "footer": {
+    "counter": {
+      "start": "The page has been visited ",
+      "end": " times"
+    }
+  },
+  "contact": {
+    "alert": {
+      "greeting": "Hello ",
+      "message": ". The following message has been successfully sent: ",
+      "email": " We will contact you by email ",
+      "end": " as soon as possible",
+      "invalidated": "A problem has occurred, please check the inputs"
+    },
+    "form": {
+      "field": {
+        "name": "First Name",
+        "surname": "Last Name",
+        "email": "Email Address",
+        "subject": "Subject",
+        "message": "Message",
+        "reset": "Reset",
+        "send": "Send"
+      },
+      "placeholder": {
+        "name": "John",
+        "surname": "Doe",
+        "email": "contact@johndoe.com",
+        "subject": "Collaboration",
+        "message": "I would like to work together"
+      }
+    }
+  }
 }

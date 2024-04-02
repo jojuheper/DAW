@@ -1,7 +1,4 @@
-import { useTranslation } from "react-i18next";
-
 export const LeftCompose = () => {
-  const {t} = useTranslation();
   return (
     // <div>
     //   <div>
@@ -25,7 +22,7 @@ export const LeftCompose = () => {
     <table>      
       <tr>
         <td>
-          <img src="https://placehold.co/300x300" alt="placeholder" />
+          <img src="https://placehold.co/300x300" alt="placeholder" width="300" height="300" />
         </td>
         <td>
           <p>
