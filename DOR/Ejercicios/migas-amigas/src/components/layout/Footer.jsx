@@ -20,9 +20,6 @@ export const Footer = () => {
         <div>
           <div>{t("footer.titleMenu")}</div>
           <Navbar />
-          <div>
-            <Link to={"/work"}>{t("work.title")}</Link>
-          </div>
         </div>
       </div>
 

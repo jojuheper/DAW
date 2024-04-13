@@ -5,15 +5,8 @@ export const Contact = () => {
   return (
     <div>
       <div>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        <p>{t("contactPage.form.title")}</p>
+        <p>{t("contactPage.form.text")}</p>
       </div>
       <div>
         <form className="">
@@ -26,7 +19,7 @@ export const Contact = () => {
               className="form-control"
               id="fullname"
               aria-describedby="nameHelp"
-              placeholder="full name"
+              placeholder={t("contactPage.form.placeholder.fullname")}
               aria-invalid="true"
               required
             />
@@ -40,7 +33,7 @@ export const Contact = () => {
               className="form-control"
               id="email"
               aria-describedby="emailHelp"
-              placeholder="email@email.com"
+              placeholder={t("contactPage.form.placeholder.email")}
               aria-invalid="true"
               required
             />
@@ -53,7 +46,7 @@ export const Contact = () => {
               type="textarea"
               className="form-control"
               id="message"
-              placeholder="Your Message Here"
+              placeholder={t("contactPage.form.placeholder.message")}
               aria-invalid="true"
               required
             />

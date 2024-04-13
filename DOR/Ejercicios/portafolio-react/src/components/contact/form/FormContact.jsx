@@ -21,6 +21,7 @@ export const FormContact = () => {
   
   const onSubmit = (event) => {
     event.preventDefault();
+    console.log("name: ",name);
     setValidated(contactForm({...formState}));
     validated && setSubmitted(validated);
   };

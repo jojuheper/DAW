@@ -1,44 +1,20 @@
-export const LeftCompose = () => {
+import PropTypes from "prop-types";
+
+export const LeftCompose = ({title, text, url, alt}) => {
   return (
-    // <div>
-    //   <div>
-    //     <img src="https://placehold.co/300x300" alt="placeholder" />
-    //     <div>
-    //       <p>
-    //         What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-    //         printing and typesetting industry. Lorem Ipsum has been the
-    //         industry's standard dummy text ever since the 1500s, when an unknown
-    //         printer took a galley of type and scrambled it to make a type
-    //         specimen book. It has survived not only five centuries, but also the
-    //         leap into electronic typesetting, remaining essentially unchanged.
-    //         It was popularised in the 1960s with the release of Letraset sheets
-    //         containing Lorem Ipsum passages, and more recently with desktop
-    //         publishing software like Aldus PageMaker including versions of Lorem
-    //         Ipsum.
-    //       </p>
-    //     </div>
-    //   </div>
-    // </div>
-    <table>      
-      <tr>
-        <td>
-          <img src="https://placehold.co/300x300" alt="placeholder" width="300" height="300" />
-        </td>
-        <td>
-          <p>
-            What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-            printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type
-            specimen book. It has survived not only five centuries, but also the
-            leap into electronic typesetting, remaining essentially unchanged.
-            It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
-          </p>
-        </td>
-      </tr>
-    </table>
+    <div>
+      <img src={url} alt={alt || "Our Product"} width="300" height="300"/>
+      <div>
+        <p>{title}</p>
+        <p>{text}</p>
+      </div>
+    </div>
   );
 };
+
+LeftCompose.propTypes = {
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  alt: PropTypes.string
+}

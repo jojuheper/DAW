@@ -6,7 +6,7 @@
   },
   "homepage": {
     "navlink": "inicio",
-    "titleInitPage": "Esta es la página de Inicio",
+    "titleInitPage": "El sitio donde comprar pan",
     "product": {
       "title": "productos",
       "name": {
@@ -18,20 +18,121 @@
         "bread": "Crujiente y sabroso",
         "pastry": "Fresco y recién hecho",
         "empanada": "Empieza la mañana diferente"
+      },
+      "video": {
+        "title": "Descubre el Encanto de la Elaboración de Pan",
+        "p": {
+          "1": "Sumérgete en el mundo mágico de la elaboración de pan con nuestro cautivador video. Desde los ingredientes básicos hasta el proceso de amasado y horneado, te llevaremos en un viaje paso a paso a través de la creación de un pan perfecto.",
+          "2": "Prepárate para sentir la satisfacción de crear tu propio pan casero mientras te sumerges en la experiencia sensorial de ver cada paso del proceso en acción."
+        }
       }
     }
   },
   "bakery": {
     "navlink": "panadería",
-    "titleBakery": "Esta es la página de panadería"
+    "titleBakery": "Nuestros Panes",
+    "product": {
+      "1": {
+        "title": "El pan blanco",
+        "text": "El pan blanco es el más común en muchos países. Tiene un sabor suave y un color claro. Como parte del proceso de molturación de la harina, se eliminan las capas de salvado y germen de la baya de trigo integral de la harina de pan blanco. Este método elimina los aceites naturales que se encuentran en las bayas de trigo, lo que permite conservar los productos durante más tiempo, ya que los aceites que se encuentran en el salvado y el germen son los que antes se estropean. El pan blanco carece de los beneficios nutricionales del pan integral."
+      },
+      "2": {
+        "title": "El pan integral",
+        "text": "El pan integral se elabora con harina que aprovecha el grano entero y contiene más fibra, vitaminas, minerales y antioxidantes que el pan blanco. El pan hecho con grano integral tiene más valor nutritivo que el elaborado con harina sin salvado ni germen. El pan integral tiene un sabor más profundo y rico que el pan blanco. Su sabor recuerda ligeramente al de la nuez y tiene una textura más densa y masticable. Es uno de los panes más beneficiosos para la salud. "
+      },
+      "3": {
+        "title": "El pan de centeno",
+        "text": "El pan de centeno se hace con harina de centeno. Esencial en sándwiches delicatessen como los Reubens, los hay claros, medios y oscuros, según la parte de la baya de centeno que se utilice para hacer la harina y la parte del grano que se muela. En Europa, el pan de centeno se suele elaborar con harina de centeno 100%, mientras que en EE. UU. se suele utilizar melaza y cacao en polvo, que realzan el sabor y el color. También se pueden añadir semillas de alcaravea, que realzan el aroma de la hogaza aún más. El pan de centeno tiene una textura densa, un sabor terroso y una acidez peculiar."
+      },
+      "4": {
+        "title": "El pan de masa madre",
+        "text": "El pan de masa madre se elabora mediante un largo proceso de fermentación con levaduras y lactobacilos naturales. La levadura salvaje, que se nutre y crece en una mezcla de agua y harina, se conoce como \"fermento\". La levadura salvaje necesita más tiempo para fermentar que la levadura comercial, lo que da como resultado el característico sabor agrio que los amantes de la masa madre de todo el mundo aman. El pan de masa madre contiene menos gluten que otros tipos de pan, lo que le permite desarrollar un intenso sabor ácido, un exterior crujiente y un interior esponjoso. El pan de masa madre, un alimento característico de la bahía de San Francisco, favorece la digestión y el control del índice glucémico."
+      },
+      "5": {
+        "title": "El pan multicereales",
+        "text": "El pan multicereales es un pan que se hace al menos con dos cereales diferentes. Sin embargo, eso no significa que el grano sea siempre integral; lee bien los ingredientes si buscas un pan multicereales denso y sustancioso, excelente para sándwiches."
+      },
+      "6": {
+        "title": "Las baguettes",
+        "text": "Las baguettes forman parte de la cultura francesa y existen desde principios del siglo XIX. Es uno de los alimentos franceses más conocidos y emblemáticos, y se puede encontrar en panaderías, cafeterías y restaurantes de toda Francia. Las baguettes son panes largos y finos, crujientes por fuera y blandos y ligeros por dentro. Suelen elaborarse con harina de trigo blanco, agua, levadura y sal. La masa se enrolla y se le da forma de barra larga y estrecha antes de meterla en el horno."
+      },
+      "7": {
+        "title": "La chapata o ciabatta",
+        "text": "La chapata o ciabatta, palabra italiana que significa zapatilla, es un tipo de pan ligero y aireado con una corteza ligeramente gomosa. Se prepara con harina rica en gluten, levadura y agua, y tiene forma de hogaza alargada. La masa se deja fermentar durante mucho tiempo, de ahí su elevada altura. El pan de chapata es uno de los favoritos de los amantes del pan italiano. Es perfecto para hacer panini, ya que aguanta mejor que muchos otros tipos de pan. El sabor de la chapata es suave, pero se puede realzar untando la superficie con aceite de oliva antes de hornearla o añadiendo hierbas o especias a la masa. "
+      },
+      "8": {
+        "title": "El pumpernickel",
+        "text": "El pumpernickel es un pan de centeno alemán oscuro, denso y lleno de sabor. Tiene un sabor y una textura únicos que lo distinguen de otros tipos de pan. Los principales ingredientes del pumpernickel son harina de centeno, agua y levadura. El pan de centeno tiene sabor a nuez y un gusto ligeramente dulce, lo que lo convierte en una excelente opción para bocadillos, tostadas y como acompañamiento de sopas, ensaladas y guisos. También está riquísimo con mantequilla, miel o mermelada."
+      },
+      "9": {
+        "title": "El pan challah",
+        "text": "El pan challah es un pan tradicional judío que suele comerse en ocasiones especiales o fiestas y simboliza la fe, la esperanza y el amor. La palabra \"challah\" procede del hebreo \"hallah\", que significa \"porción\" o \"separación\". La masa se elabora con harina, azúcar, aceite, huevos y levadura. Después se trenza en tres vueltas y se cuece en el horno. El resultado es un pan dorado con un sabor ligeramente dulce y una textura suave y esponjosa. El pan challah se ha convertido en un alimento popular tanto en la cocina tradicional como en la moderna. Puede utilizarse como pan de sándwich, como guarnición de sopas o guisos, o simplemente solo. La masa también puede utilizarse para hacer torrijas, babka y otros postres."
+      },
+      "10": {
+        "title": "El brioche",
+        "text": "El brioche es un dulce francés que se elabora con harina, mantequilla, huevos, azúcar y levadura. Tiene una corteza dorada y mantecosa de textura esponjosa y ligera. La masa se deja fermentar durante varias horas antes de hornearla, lo que le confiere una consistencia ligera y delicada. El brioche es un producto de panadería versátil que se puede disfrutar de varias formas. Se suele servir en el desayuno con mantequilla, mermelada o miel. También se puede degustar en platos salados, como sándwiches y hamburguesas. La masa también se puede utilizar para hacer postres, como magdalenas, tartas y pasteles. Ya sea en el desayuno, como plato salado o para darse un capricho, un brioche siempre sienta bien."
+      }
+    }
   },
   "patisserie": {
     "navlink": "bollería",
-    "titlePatisserieBoulangerie": "Esta es la página de Pastelería-Bollería"
+    "titlePatisserieBoulangerie": "Esta es la página de Pastelería-Bollería",
+    "product": {
+      "1": {
+        "title": "Napolitana de Crema",
+        "text": "Explora la tentadora Napolitana de crema, un clásico de la repostería italiana que fusiona la ligereza del hojaldre con la suavidad de la crema pastelera. Esta exquisitez presenta una masa dorada y crujiente envolviendo una generosa capa de crema sedosa, creando una experiencia sensorial única y deliciosa que te transportará a Italia en cada bocado. Perfecta para acompañar tu café de la mañana o deleitarte después de una comida, la Napolitana de crema es un verdadero placer para los amantes del dulce."
+      },
+      "2": {
+        "title": "Rollito de Canela",
+        "text": "Déjate envolver por el irresistible encanto del rollito de canela, una tentación que combina la dulzura de la masa con el aroma cálido de la canela. Este exquisito manjar presenta una masa tierna y esponjosa, cuidadosamente enrollada con una mezcla de canela, azúcar y mantequilla que crea un remolino de sabor y textura. Cada mordisco te sorprenderá con la perfecta armonía entre la suavidad de la masa y la intensidad de las especias, transportándote a un mundo de confort y placer dulce. Ideal para acompañar tu desayuno o disfrutar como un capricho reconfortante, el rollito de canela es la elección perfecta para endulzar tus momentos especiales con un toque de calidez y dulzura."
+      },
+      "3": {
+        "title": "Palmera Glaseada",
+        "text": "Déjate seducir por la irresistible palmera glaseada, un clásico de la pastelería que combina la textura crujiente del hojaldre con el dulzor del azúcar glaseado. Esta delicia presenta una fina masa de hojaldre horneada hasta alcanzar una perfección dorada y crujiente, recubierta con una capa generosa de azúcar glaseado que aporta un toque dulce y crujiente en cada bocado. Ideal para disfrutar en cualquier momento del día, ya sea como un tentempié dulce o como el complemento perfecto para tu café o té favorito, la palmera glaseada es una indulgencia que nunca decepciona."
+      },
+      "4": {
+        "title": "Muffin de Chocolate",
+        "text": "Sumérgete en el placer indulgente del muffin de chocolate, una delicia esponjosa y decadente que cautiva los sentidos con su sabor a cacao y su textura suave. Este manjar horneado presenta una masa tierna y esponjosa, impregnada con trozos de chocolate derretido que se funden en cada bocado, creando una explosión de sabor chocolatoso que deleitará tu paladar. Ideal para disfrutar en cualquier momento del día, ya sea como un desayuno reconfortante, un tentempié dulce o un postre indulgente, el muffin de chocolate es la opción perfecta para satisfacer tus antojos más golosos y endulzar tus momentos especiales."
+      },
+      "5": {
+        "title": "Donut de Chocolate",
+        "text": "Déjate seducir por el irresistible donut de chocolate, una delicia esponjosa y decadente que deleita los sentidos con su suave masa y su cobertura de chocolate irresistible. Este manjar horneado presenta una masa tierna y esponjosa, adornada con una generosa capa de glaseado de chocolate que se derrite en cada bocado, proporcionando un placer indulgente a los amantes del dulce. Ideal para disfrutar en cualquier momento del día, ya sea como un capricho dulce para el desayuno, un tentempié reconfortante o un postre indulgente después de la cena, el donut de chocolate es la elección perfecta para satisfacer tus antojos más golosos y endulzar tus momentos especiales."
+      },
+      "6": {
+        "title": "Lazo de Hojaldre con Almendra",
+        "text": "Disfruta de la exquisita combinación de texturas y sabores con el lazo de hojaldre con almendra, una delicia que cautiva los sentidos con su crujiente masa de hojaldre y su relleno de almendra tostada. Este manjar horneado presenta una masa de hojaldre dorada y escamosa, hábilmente trenzada y rellena con una mezcla de almendras tostadas, azúcar y especias que aportan un aroma irresistible y un sabor delicado. Perfecto para acompañar tu café de la mañana o deleitarte como un tentempié especial, el lazo de hojaldre con almendra es la elección perfecta para aquellos que buscan un capricho dulce con un toque de elegancia."
+      },
+      "7": {
+        "title": "Bamba de Crema",
+        "text": "Sumérgete en el placer indulgente de la bamba de crema, un dulce que combina la suavidad de su masa esponjosa con la cremosidad de su relleno. Este manjar horneado presenta una masa ligera y esponjosa, cuidadosamente rellena con una generosa porción de crema pastelera que se desborda con cada bocado, ofreciendo una explosión de sabor y textura en el paladar. Adornado con un toque de azúcar glas, este dulce tentador es el acompañamiento perfecto para tu café matutino o una dulce indulgencia para disfrutar en cualquier momento del día. Deleita tus sentidos con la irresistible bamba de crema y descubre el placer de su suave y cremosa exquisitez."
+      },
+      "8": {
+        "title": "Milhoja",
+        "text": "Déjate seducir por la elegancia y el sabor exquisito de la milhoja, un clásico de la pastelería que combina capas de hojaldre dorado con cremosa crema pastelera. Cada mordisco de este dulce indulgente te transportará a un mundo de texturas y sabores contrastantes: la ligereza y la delicadeza del hojaldre se combinan con la suavidad y la riqueza de la crema, creando una experiencia verdaderamente inolvidable para tu paladar. Adornado con una fina capa de azúcar glas, la milhoja es el epítome de la sofisticación dulce, perfecta para acompañar una taza de café o té, o para deleitarte como postre después de una comida. Disfruta de cada capa de esta deliciosa creación y déjate llevar por su irresistible encanto."
+      }
+    }
   },
   "empanada": {
     "navlink": "empanada",
-    "titleEmpanada": "Esta es la página de Empanadas"
+    "titleEmpanada": "Esta es la página de Empanadas",
+    "product": {
+      "1": {
+        "title": "Empanada de Atún",
+        "text": "Disfruta de la frescura y el sabor del mar con cada bocado de nuestra empanada de atún. Rellenada con una deliciosa mezcla de atún fresco, cebolla, tomate y especias, esta empanada ofrece una explosión de sabores que te transportará directamente a la costa. Su masa dorada y crujiente envuelve el relleno jugoso y aromático, creando una combinación perfecta de texturas y sabores. Ya sea como un tentempié rápido, un almuerzo ligero o un acompañamiento para tus reuniones familiares, nuestra empanada de atún es una opción versátil y deliciosa que deleitará a todos los amantes del pescado y el sabor mediterráneo."
+      },
+      "2": {
+        "title": "Empanada de Gambas",
+        "text": "Déjate seducir por la irresistible empanada de gambas, una creación que captura la esencia del mar con cada mordisco. Rellenada con gambas jugosas y tiernas, salteadas con ajo, cebolla y un toque de perejil fresco, esta empanada ofrece una explosión de sabores marinos que te transportará a la costa con su frescura y aroma. Su masa crujiente y dorada envuelve el relleno con maestría, creando una combinación perfecta de texturas y sabores que deleitarán tu paladar. Ya sea como un aperitivo elegante, un plato principal lleno de sabor o un bocado para compartir en una reunión especial, la empanada de gambas es una elección excepcional que hará las delicias de los amantes del marisco y la buena cocina."
+      },
+      "3": {
+        "title": "Empanada de Carne",
+        "text": "Sumérgete en la experiencia clásica de la empanada de carne, un manjar que deleita los sentidos con su sabor reconfortante y su textura jugosa. Rellenada con una mezcla irresistible de carne de res sazonada con cebolla, pimiento, aceitunas y especias, esta empanada es un homenaje a la cocina tradicional y a los sabores de siempre. Su masa dorada y crujiente envuelve el relleno con maestría, creando una combinación perfecta de sabores intensos y texturas contrastantes que te transportarán a la mesa familiar. Ya sea como un almuerzo rápido, una cena reconfortante o un plato para compartir en una celebración especial, la empanada de carne es una opción versátil y deliciosa que siempre conquista los corazones y los paladares."
+      },
+      "4": {
+        "title": "Empanada de Bacalao",
+        "text": "Déjate cautivar por la exquisita empanada de bacalao, un manjar que rinde homenaje a los sabores del mar. Rellenada con lascas tiernas de bacalao desalado, cebolla caramelizada, pimientos y un toque de perejil fresco, esta empanada ofrece una explosión de sabores marinos que deleitarán tu paladar. Su masa crujiente y dorada abraza con maestría el relleno jugoso y aromático, creando una experiencia culinaria que evoca la brisa marina y el encanto de la costa. Ya sea como un aperitivo elegante, un plato principal lleno de sabor o una delicia para compartir en una reunión especial, la empanada de bacalao es una elección excepcional que dejará una impresión duradera en todos los amantes del pescado y la buena cocina."
+      }
+    }
   },
   "work": {
     "title": "trabaja con nosotros"
@@ -40,10 +141,17 @@
     "navlink": "contacto",
     "titleContact": "Esta es la página de contacto",
     "form": {
+      "title": "¡Contáctanos y Descubre un Mundo de Delicias en Nuestra Panadería!",
+      "text": "En nuestra panadería, estamos comprometidos a brindarte la mejor experiencia gastronómica con cada bocado. ¿Tienes alguna pregunta sobre nuestros productos o servicios? ¿Quieres hacer un pedido especial para tu próximo evento o simplemente quieres saber más sobre nuestras especialidades? No dudes en ponerte en contacto con nosotros. Nuestro equipo amable y apasionado está aquí para ayudarte en todo lo que necesites. ¡Llena el formulario a continuación y déjanos deleitarte con nuestro pan recién horneado, pasteles decadentes y otros manjares irresistibles! Esperamos escucharte pronto y compartir contigo la magia de nuestra panadería.",
       "fullname": "Nombre y Apellido",
       "email": "Dirección de correo",
       "message": "Mensaje",
-      "error": "Debe ingresar bien los campos"
+      "error": "Debe ingresar bien los campos",
+      "placeholder": {
+        "fullname": "Domingo Hernández Prado",
+        "email": "dhprado@email.com",
+        "message": "Nos gustaría contratar vuesto servicio."
+      }
     }
   },
   "errorPage": {

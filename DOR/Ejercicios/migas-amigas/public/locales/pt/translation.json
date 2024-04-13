@@ -6,7 +6,7 @@
   },
   "homepage": {
     "navlink": "casa",
-    "titleInitPage": "Esta é a página inicial",
+    "titleInitPage": "O local para comprar pão",
     "product": {
       "title": "produtos",
       "name": {
@@ -18,20 +18,121 @@
         "bread": "Crocante e saboroso",
         "pastry": "Fresco e acabado de fazer",
         "empanada": "Começar a manhã de forma diferente"
+      },
+      "video": {
+        "title": "Descubra o encanto de fazer pão",
+        "p": {
+          "1": "Mergulhe no mundo mágico do fabrico do pão com o nosso vídeo cativante. Desde os ingredientes básicos até ao processo de amassar e cozer, levá-lo-emos numa viagem passo a passo através da criação do pão perfeito.",
+          "2": "Prepare-se para sentir a satisfação de criar o seu próprio pão caseiro enquanto mergulha na experiência sensorial de ver cada passo do processo em ação."
+        }
       }
     }
   },
   "bakery": {
     "navlink": "padaria",
-    "titleBakery": "Esta é a página da padaria"
+    "titleBakery": "Esta é a página da padaria",
+    "product": {
+      "1": {
+        "title": "Pão branco",
+        "text": "O pão branco é o pão mais comum em muitos países. Tem um sabor suave e uma cor clara. Como parte do processo de moagem da farinha, as camadas de farelo e de gérmen da baga de trigo integral são removidas da farinha de pão branco. Este método remove os óleos naturais presentes nas bagas de trigo, o que permite conservar os produtos durante mais tempo, uma vez que são os óleos presentes no farelo e no gérmen que se estragam primeiro. O pão branco não tem os benefícios nutricionais do pão integral."
+      },
+      "2": {
+        "title": "Pão integral",
+        "text": "O pão integral é feito com farinha de cereais integrais e contém mais fibras, vitaminas, minerais e antioxidantes do que o pão branco. O pão feito de cereais integrais tem mais valor nutricional do que o pão feito de farinha sem farelo e gérmen. O pão integral tem um sabor mais profundo e mais rico do que o pão branco. Tem um sabor ligeiramente a frutos secos e uma textura mais densa e mais elástica. É um dos pães mais benéficos para a saúde. "
+      },
+      "3": {
+        "title": "Pão de centeio",
+        "text": "O pão de centeio é feito de farinha de centeio. Essencial em sanduíches delicatessen como as salsichas Reubens, existem pães de centeio claros, médios e escuros, dependendo da parte da baga de centeio utilizada para fazer a farinha e da parte do grão que é moída. Na Europa, o pão de centeio é geralmente feito com 100% de farinha de centeio, enquanto nos EUA são frequentemente utilizados melaço e cacau em pó, que realçam o sabor e a cor. Podem também ser adicionadas sementes de alcaravia, que realçam ainda mais o aroma do pão. O pão de centeio tem uma textura densa, um sabor a terra e um azedume caraterístico."
+      },
+      "4": {
+        "title": "Pão de massa fermentada",
+        "text": "O pão de massa fermentada é feito através de um longo processo de fermentação utilizando leveduras naturais e lactobacilos. A levedura selvagem, que se alimenta e cresce numa mistura de água e farinha, é conhecida como \"fermentação\". A levedura selvagem demora mais tempo a fermentar do que a levedura comercial, o que resulta no sabor azedo caraterístico que os amantes da massa fermentada em todo o mundo adoram. O pão de massa fermentada contém menos glúten do que outros tipos de pão, o que lhe permite desenvolver um sabor azedo intenso, um exterior estaladiço e um interior fofo. Um alimento de assinatura da área da Baía de São Francisco, o pão de massa fermentada promove a digestão e o controlo do índice glicémico."
+      },
+      "5": {
+        "title": "Pão multigrãos",
+        "text": "O pão multigrãos é um pão feito com pelo menos dois grãos diferentes. No entanto, isso não significa que o grão seja sempre integral; leia os ingredientes cuidadosamente se estiver à procura de um pão multigrãos denso e saudável que seja excelente para sanduíches."
+      },
+      "6": {
+        "title": "Baguetes",
+        "text": "As baguetes fazem parte da cultura francesa e existem desde o início do século XIX. É um dos alimentos franceses mais conhecidos e icónicos e pode ser encontrado em padarias, cafés e restaurantes em toda a França. As baguetes são pães longos e finos, estaladiços por fora e macios e leves por dentro. São geralmente feitas com farinha de trigo branca, água, fermento e sal. A massa é enrolada numa forma de pão comprida e estreita antes de ser cozida no forno."
+      },
+      "7": {
+        "title": "A ciabatta ou ciabatta",
+        "text": "A ciabatta, palavra italiana que significa chinelo, é um tipo de pão leve e arejado com uma crosta ligeiramente borrachuda. É fabricado com farinha rica em glúten, levedura e água e tem a forma de um pão alongado. A massa é deixada a levedar durante muito tempo, o que explica a altura elevada do pão. O pão Ciabatta é um dos preferidos dos amantes do pão italiano. É perfeito para fazer panini, uma vez que se aguenta melhor do que muitos outros tipos de pão. O sabor da ciabatta é suave, mas pode ser melhorado pincelando a superfície com azeite antes de cozer ou adicionando ervas ou especiarias à massa. "
+      },
+      "8": {
+        "title": "O pumpernickel",
+        "text": "O pumpernickel é um pão de centeio alemão escuro, denso e cheio de sabor. Tem um sabor e uma textura únicos que o distinguem de outros tipos de pão. Os principais ingredientes do pumpernickel são a farinha de centeio, a água e a levedura. O pão de centeio tem um sabor a nozes e um paladar ligeiramente doce, o que o torna uma excelente escolha para sanduíches, torradas e como acompanhamento de sopas, saladas e guisados. Também é delicioso com manteiga, mel ou compota."
+      },
+      "9": {
+        "title": "Pão Challah",
+        "text": "O pão challah é um pão tradicional judaico que é frequentemente consumido em ocasiões especiais ou feriados e simboliza a fé, a esperança e o amor. A palavra \"challah\" vem do hebraico \"hallah\", que significa \"porção\" ou \"separação\". A massa é feita de farinha, açúcar, óleo, ovos e fermento. Em seguida, é entrançada em três voltas e cozida no forno. O resultado é um pão castanho-dourado com um sabor ligeiramente adocicado e uma textura macia e esponjosa. O pão Challah tornou-se um alimento popular tanto na cozinha tradicional como na moderna. Pode ser utilizado como pão de sanduíche, como guarnição de sopas ou guisados, ou simplesmente sozinho. A massa também pode ser utilizada para fazer torrijas, babka e outras sobremesas."
+      },
+      "10": {
+        "title": "O brioche",
+        "text": "O brioche é uma massa francesa feita com farinha, manteiga, ovos, açúcar e fermento. Tem uma crosta dourada e amanteigada, com uma textura leve e fofa. A massa é deixada a fermentar durante várias horas antes de ser cozinhada, o que lhe confere uma consistência leve e delicada. O brioche é um produto de padaria versátil que pode ser apreciado de várias formas. É frequentemente servido ao pequeno-almoço com manteiga, compota ou mel. Também pode ser apreciado em pratos salgados, como sandes e hambúrgueres. A massa também pode ser utilizada para fazer sobremesas, como muffins, bolos e tartes. Quer seja ao pequeno-almoço, como um prato salgado ou como um doce, um brioche sabe sempre bem."
+      }
+    }
   },
   "patisserie": {
     "navlink": "bolos",
-    "titlePatisserieBoulangerie": "Esta é a página da Pastelaria-Boulangerie"
+    "titlePatisserieBoulangerie": "Esta é a página da Pastelaria-Boulangerie",
+    "product": {
+      "1": {
+        "title": "Creme Napolitano",
+        "text": "Explore a tentadora Napolitana di crema, um clássico italiano que funde a leveza da massa folhada com a suavidade do creme de ovos. Esta iguaria apresenta uma massa dourada estaladiça envolta numa generosa camada de creme sedoso, criando uma experiência sensorial única e deliciosa que o transportará para Itália a cada dentada. Perfeito para acompanhar o seu café matinal ou para saborear depois de uma refeição, o Creme Napolitano é um verdadeiro deleite para quem gosta de doces."
+      },
+      "2": {
+        "title": "Rolo de canela",
+        "text": "Deixe-se envolver pelo charme irresistível do rolo de canela, uma tentação que combina a doçura da massa com o aroma quente da canela. Esta iguaria requintada apresenta uma massa tenra e fofa, cuidadosamente enrolada com uma mistura de canela, açúcar e manteiga que cria um turbilhão de sabor e textura. Cada dentada vai surpreendê-lo com a harmonia perfeita entre a suavidade da massa e a intensidade das especiarias, transportando-o para um mundo de conforto e doce prazer. Ideal para acompanhar o seu pequeno-almoço ou como um deleite reconfortante, o rolo de canela é a escolha perfeita para adoçar os seus momentos especiais com um toque de calor e doçura."
+      },
+      "3": {
+        "title": "Palmeira Glaceada",
+        "text": "Deixe-se seduzir pela irresistível palmeira glaceada, um clássico da pastelaria que combina a textura estaladiça da massa folhada com a doçura do açúcar em pó. Esta guloseima apresenta uma fina massa folhada cozida até à perfeição dourada e estaladiça, coberta com uma generosa camada de açúcar em pó que dá um toque doce e estaladiço a cada dentada. Ideal para saborear a qualquer hora do dia, seja como um lanche doce ou como o acompanhamento perfeito para o seu café ou chá favorito, a palma glaceada é uma indulgência que nunca desilude."
+      },
+      "4": {
+        "title": "Bolinho de Chocolate",
+        "text": "Mergulhe no prazer indulgente do muffin de chocolate, uma guloseima fofa e decadente que cativa os sentidos com o seu sabor a cacau e textura suave. Este doce cozinhado apresenta uma massa tenra e fofa, infundida com pedaços de chocolate derretido que se fundem em cada dentada, criando uma explosão de sabor a chocolate que irá deliciar as suas papilas gustativas. Ideal para saborear a qualquer hora do dia, seja como um pequeno-almoço reconfortante, um lanche doce ou uma sobremesa indulgente, o muffin de chocolate é a escolha perfeita para satisfazer a sua vontade de comer doces e adoçar os seus momentos especiais."
+      },
+      "5": {
+        "title": "Donut de chocolate",
+        "text": "Deixe-se seduzir pelo irresistível donut de chocolate, uma guloseima fofa e decadente que delicia os sentidos com a sua massa macia e a irresistível cobertura de chocolate. Este doce cozinhado apresenta uma massa tenra e fofa, adornada com uma generosa camada de cobertura de chocolate que se derrete a cada dentada, proporcionando um deleite indulgente para quem gosta de doces. Ideal para saborear a qualquer hora do dia, quer seja como um doce pequeno-almoço, um lanche reconfortante ou uma sobremesa indulgente depois do jantar, o donut de chocolate é a escolha perfeita para satisfazer os seus desejos de doces e adoçar os seus momentos especiais."
+      },
+      "6": {
+        "title": "Arco de Massa Folhada com Amêndoas",
+        "text": "Aprecie a requintada combinação de texturas e sabores com o laço de massa folhada com amêndoa, uma iguaria que cativa os sentidos com a sua massa folhada estaladiça e recheio de amêndoa torrada. Esta iguaria assada apresenta uma massa folhada dourada e escamosa, habilmente entrançada e recheada com uma mistura de amêndoas torradas, açúcar e especiarias para um aroma irresistível e um sabor delicado. Perfeito para acompanhar o seu café da manhã ou deliciar-se como um snack especial, o laço de massa folhada de amêndoa é a escolha perfeita para quem procura um doce com um toque de elegância."
+      },
+      "7": {
+        "title": "Creme Bamba",
+        "text": "Mergulhe no prazer indulgente da bamba de crema, um doce que combina a suavidade da sua massa fofa com a cremosidade do seu recheio. Esta iguaria assada apresenta uma massa leve e fofa, cuidadosamente recheada com uma generosa porção de creme que transborda a cada dentada, oferecendo uma explosão de sabor e textura no paladar. Decorado com um toque de açúcar em pó, este doce tentador é o acompanhamento perfeito para o seu café da manhã ou uma doce indulgência para desfrutar a qualquer altura do dia. Entregue-se aos seus sentidos com o irresistível creme bamba e descubra o prazer da sua suavidade e cremosidade."
+      },
+      "8": {
+        "title": "Millefeuille",
+        "text": "Deixe-se seduzir pela elegância e pelo sabor requintado do mil-folhas, um clássico da pastelaria que combina camadas de massa folhada dourada com creme de ovos. Cada dentada deste doce indulgente transportá-lo-á para um mundo de texturas e sabores contrastantes: a leveza e a delicadeza da massa folhada combinam com a suavidade e a riqueza do creme, criando uma experiência verdadeiramente inesquecível para o seu paladar. Decorado com uma fina camada de açúcar em pó, o mil-folhas é o epítome da sofisticação doce, perfeito para acompanhar uma chávena de café ou de chá, ou para o deliciar como sobremesa após uma refeição. Desfrute de cada camada desta deliciosa criação e deixe-se levar pelo seu charme irresistível."
+      }
+    }
   },
   "empanada": {
     "navlink": "tarte",
-    "titleEmpanada": "Esta é a página das Empanadas"
+    "titleEmpanada": "Esta é a página das Empanadas",
+    "product": {
+      "1": {
+        "title": "Empanada de Atu",
+        "text": "Aprecie a frescura e o sabor do mar em cada dentada da nossa empanada de atum. Recheada com uma deliciosa mistura de atum fresco, cebola, tomate e especiarias, esta empanada oferece uma explosão de sabores que o transportará diretamente para a costa. A crosta dourada e estaladiça envolve o recheio suculento e aromático, criando uma combinação perfeita de texturas e sabores. Quer seja um lanche rápido, um almoço ligeiro ou um acompanhamento para as suas reuniões familiares, a nossa empanada de atum é uma opção versátil e deliciosa que fará as delícias de todos os amantes de peixe e do sabor mediterrânico."
+      },
+      "2": {
+        "title": "Empanada de Camarão",
+        "text": "Deixe-se seduzir pela irresistível empanada de gambas, uma criação que capta a essência do mar em cada dentada. Recheada com camarões suculentos e tenros, salteados com alho, cebola e um toque de salsa fresca, esta empanada oferece uma explosão de sabores marinhos que o transportará para a costa com a sua frescura e aroma. A crosta estaladiça e dourada envolve habilmente o recheio, criando uma combinação perfeita de texturas e sabores que irá deliciar o seu paladar. Quer seja um aperitivo elegante, um prato principal saboroso ou uma refeição para partilhar numa reunião especial, a empanada de camarão é uma escolha excecional que fará as delícias dos amantes de marisco e da boa cozinha."
+      },
+      "3": {
+        "title": "Empanada de Carne",
+        "text": "Mergulhe na experiência da clássica empanada de carne de vaca, uma iguaria que delicia os sentidos com o seu sabor reconfortante e textura suculenta. Recheada com uma mistura irresistível de carne de vaca temperada com cebolas, pimentos, azeitonas e especiarias, esta empanada é um tributo à cozinha tradicional e aos sabores consagrados pelo tempo. A sua massa dourada e estaladiça envolve habilmente o recheio, criando uma combinação perfeita de sabores intensos e texturas contrastantes que o transportarão para a mesa da família. Seja como um almoço rápido, um jantar reconfortante ou um prato para partilhar numa celebração especial, a tarte de carne é uma opção versátil e deliciosa que conquista sempre corações e paladares."
+      },
+      "4": {
+        "title": "Empanada de Bacalhau",
+        "text": "Deixe-se encantar pela requintada empanada de bacalhau, um manjar que presta homenagem aos sabores do mar. Recheada com lascas macias de bacalhau dessalgado, cebola caramelizada, pimentões e um toque de salsa fresca, esta empanada oferece uma explosão de sabores marinhos que vão encantar o seu paladar. Sua massa crocante e dourada abraça habilmente o recheio suculento e aromático, criando uma experiência culinária que evoca a brisa do mar e o encanto da costa. Seja como um aperitivo elegante, um prato principal cheio de sabor ou uma delícia para compartilhar em uma ocasião especial, a empanada de bacalhau é uma escolha excepcional que deixará uma impressão duradoura em todos os amantes de peixe e boa gastronomia."
+      }
+    }
   },
   "work": {
     "title": "trabalhar connosco"
@@ -40,10 +141,17 @@
     "navlink": "contacto",
     "titleContact": "Esta é a página de contacto",
     "form": {
+      "title": "Entre em Contato e Descubra um Mundo de Delícias em Nossa Padaria!",
+      "text": "Na nossa padaria, estamos comprometidos em proporcionar a melhor experiência gastronômica a cada mordida. Tem alguma dúvida sobre nossos produtos ou serviços? Deseja fazer um pedido especial para o seu próximo evento ou simplesmente saber mais sobre nossas especialidades? Não hesite em entrar em contato conosco. Nossa equipe simpática e apaixonada está aqui para ajudar em tudo o que você precisa. Preencha o formulário abaixo e deixe-nos encantá-lo com nosso pão fresquinho, bolos decadentes e outras delícias irresistíveis! Esperamos ouvir de você em breve e compartilhar a magia de nossa padaria.",
       "fullname": "Nome e apelido",
       "email": "Endereço de correio eletrónico",
       "message": "Mensagem",
-      "error": "É necessário introduzir os campos corretamente"
+      "error": "É necessário introduzir os campos corretamente",
+      "placeholder": {
+        "fullname": "João Silva Santos",
+        "email": "jssantos@email.com",
+        "message": "Gostaríamos de contratar o vosso serviço."
+      }
     }
   },
   "errorPage": {
