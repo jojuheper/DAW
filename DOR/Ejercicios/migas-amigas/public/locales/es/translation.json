@@ -2,7 +2,8 @@
   "titleApp": "Proyecto \"Migas Amigas\"",
   "titlePrincipalPage": "Esta es la página principal",
   "header": {
-    "titleHeader": "panadería"
+    "titleHeader": "panadería",
+    "language": "Seleccionar idioma"
   },
   "homepage": {
     "navlink": "inicio",
@@ -13,6 +14,11 @@
         "bread": "pan",
         "pastry": "bolleria",
         "empanada": "empanada"
+      },
+      "alt": {
+        "bread": "variedad de pan",
+        "pastry": "dulce y rica",
+        "empanada": "horneada a tu gusto"
       },
       "description": {
         "bread": "Crujiente y sabroso",
@@ -151,6 +157,17 @@
         "fullname": "Domingo Hernández Prado",
         "email": "dhprado@email.com",
         "message": "Nos gustaría contratar vuesto servicio."
+      },
+      "alert": {
+        "button": "Cerrar",
+        "ok": {
+          "title": "¡Formulario Enviado con Éxito!",
+          "text": "¡Gracias por ponerte en contacto con nosotros! Tu mensaje ha sido enviado correctamente y nuestro equipo lo revisará en breve. Nos esforzamos por brindarte la mejor atención y responder a tus consultas lo más pronto posible. Si tienes alguna otra pregunta o necesitas más ayuda, no dudes en contactarnos nuevamente. ¡Es un placer servirte y esperamos verte pronto en nuestra panadería!"
+        },
+        "ko": {
+          "title": "¡Error al Enviar el Formulario!",
+          "text": "Por favor, verifica que todos los campos estén completos y correctamente llenados. Intenta enviar el formulario nuevamente. Si el problema persiste, no dudes en contactarnos directamente. Disculpa las molestias y gracias por tu comprensión."
+        }
       }
     }
   },

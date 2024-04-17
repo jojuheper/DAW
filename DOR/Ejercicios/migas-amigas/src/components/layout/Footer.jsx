@@ -25,7 +25,7 @@ export const Footer = () => {
 
       <div>
         <div>
-          <Link to={"/"}>
+          <Link className="link-secondary link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover" to={"/"}>
             <Icon icon={copyright} /> 2024 {t("footer.copyright")}
           </Link>
         </div>

@@ -1,7 +1,29 @@
 import { useTranslation } from "react-i18next";
+import { useForm } from "../../../hooks/useForm";
+import { contactForm } from "../../../validations/contactForm";
+import { useState } from "react";
+import { SendEmail } from "./SendEmail";
 
 export const Contact = () => {
   const { t } = useTranslation();
+  const { formState, onInputChange, onResetForm } = useForm({
+    fullname: "",
+    email: "",
+    message: "",
+    privacyPolicy: false,
+  });
+
+  const { fullname, email, message, privacyPolicy } = formState;
+  const [submitted, setSubmitted] = useState(false);
+  const [validated, setValidated] = useState(false);
+
+  const onSubmit = (event) => {
+    event.preventDefault();
+    const isValidated = contactForm({ ...formState });
+    setValidated(isValidated);
+    setSubmitted(true);
+    isValidated && onResetForm();
+  };
   return (
     <div>
       <div>
@@ -17,11 +39,13 @@ export const Contact = () => {
             <input
               type="text"
               className="form-control"
+              name="fullname"
               id="fullname"
               aria-describedby="nameHelp"
               placeholder={t("contactPage.form.placeholder.fullname")}
-              aria-invalid="true"
               required
+              value={fullname}
+              onChange={onInputChange}
             />
           </div>
           <div className="mb-3 ">
@@ -32,10 +56,11 @@ export const Contact = () => {
               type="email"
               className="form-control"
               id="email"
-              aria-describedby="emailHelp"
+              name="email"
               placeholder={t("contactPage.form.placeholder.email")}
-              aria-invalid="true"
               required
+              value={email}
+              onChange={onInputChange}
             />
           </div>
           <div className="mb-3">
@@ -46,9 +71,11 @@ export const Contact = () => {
               type="textarea"
               className="form-control"
               id="message"
+              name="message"
               placeholder={t("contactPage.form.placeholder.message")}
-              aria-invalid="true"
               required
+              value={message}
+              onChange={onInputChange}
             />
           </div>
           <div className="mb-3 form-check">
@@ -56,7 +83,10 @@ export const Contact = () => {
               type="checkbox"
               className="form-check-input"
               id="privacyPolicy"
+              name="privacyPolicy"
               required
+              checked={privacyPolicy}
+              onChange={onInputChange}
             />
             <label className="form-check-label" htmlFor="privacyPolicy">
               {t("privacy.policy")} *
@@ -72,16 +102,29 @@ export const Contact = () => {
               {t("privacy.communication")}
             </label>
           </div>
-          <button
-            type="submit"
-            name="contactForm"
-            value="contactForm"
-            className="btn btn-primary"
-          >
-            Submit
-          </button>
+          <div>
+            <button
+              type="button"
+              name="contactForm"
+              value="contactForm"
+              className="btn btn-primary"
+              onClick={onResetForm}
+            >
+              Reset
+            </button>
+            <button
+              type="submit"
+              name="contactForm"
+              value="contactForm"
+              className="btn btn-primary"
+              onClick={onSubmit}
+            >
+              Submit
+            </button>
+          </div>
         </form>
       </div>
+      {submitted && <SendEmail validated={validated} />}
     </div>
   );
 };

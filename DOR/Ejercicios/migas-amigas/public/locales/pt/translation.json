@@ -2,7 +2,8 @@
   "titleApp": "Projeto \"Migalhas Migalhas\"",
   "titlePrincipalPage": "Esta é a página principal",
   "header": {
-    "titleHeader": "padaria"
+    "titleHeader": "padaria",
+    "language": "Selecionar idioma"
   },
   "homepage": {
     "navlink": "casa",
@@ -13,6 +14,11 @@
         "bread": "pão",
         "pastry": "doces",
         "empanada": "tarte"
+      },
+      "alt": {
+        "bread": "variedade de pão",
+        "pastry": "doce e rica",
+        "empanada": "assada ao seu gosto"
       },
       "description": {
         "bread": "Crocante e saboroso",
@@ -151,6 +157,17 @@
         "fullname": "João Silva Santos",
         "email": "jssantos@email.com",
         "message": "Gostaríamos de contratar o vosso serviço."
+      },
+      "alert": {
+        "button": "Fechar",
+        "ok": {
+          "title": "Formulário Enviado com Sucesso!",
+          "text": "Obrigado por entrar em contato conosco! Sua mensagem foi enviada com sucesso e nossa equipe a revisará em breve. Nos esforçamos para fornecer o melhor atendimento e responder às suas perguntas o mais rápido possível. Se você tiver mais alguma dúvida ou precisar de mais ajuda, não hesite em entrar em contato conosco novamente. É um prazer atendê-lo e esperamos vê-lo em breve em nossa padaria!"
+        },
+        "ko": {
+          "title": "Erro ao Enviar o Formulário!",
+          "text": "Por favor, verifique se todos os campos estão preenchidos corretamente. Tente enviar o formulário novamente. Se o problema persistir, não hesite em nos contatar diretamente. Pedimos desculpas pelo inconveniente e agradecemos pela sua compreensão."
+        }
       }
     }
   },

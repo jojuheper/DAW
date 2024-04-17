@@ -8,6 +8,9 @@ export const SelectLanguage = () => {
   };
   return (
     <div>
+      <label htmlFor="languageSlect">
+        
+      </label>
       <select
         defaultValue={i18n.language}
         onChange={onChangeLang}
