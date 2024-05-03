@@ -1,0 +1,26 @@
+.text-red {
+  color: rgb(255, 0, 0);
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.text-blue {
+  color: rgb(0, 0, 255);
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+.text-green {
+  color: rgb(3, 167, 3);
+  background-color: rgba(3, 167, 3, 0.2);
+}
+
+.text-yellow {
+  color: rgb(189, 189, 4);
+  background-color: rgba(189, 189, 4, 0.1);
+}
+
+.text-purple {
+  color: rgb(128, 0, 128);
+  background-color: rgba(128, 0, 128, 0.2);
+}
+
+/*# sourceMappingURL=index.css.map */

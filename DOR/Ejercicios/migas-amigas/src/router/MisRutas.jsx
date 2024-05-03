@@ -16,7 +16,6 @@ export const MisRutas = () => {
       <BrowserRouter>
         {/* Header y Navegacion */}
         <HeaderNav />
-        <hr />
         {/* Contenido Central */}
         <Routes>
           <Route path="/" element={<Inicio />} />
@@ -28,7 +27,6 @@ export const MisRutas = () => {
           <Route path="*" element={<Error404 />} />
         </Routes>
         {/* footer */}
-        <hr />
         <Footer />
       </BrowserRouter>
     </Suspense>

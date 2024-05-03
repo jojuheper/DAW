@@ -1,0 +1,80 @@
+// Variables
+$delay: 0s;
+// Cambiado a 1 segundo para el retraso
+$delay-increment: 0.3s; 
+
+// Keyframes
+@keyframes rebote {
+  16% {
+    top: 190px;
+    animation-timing-function: ease-out;
+  }
+  32% {
+    top: 33px;
+    animation-timing-function: ease-in;
+  }
+  48% {
+    top: 190px;
+    animation-timing-function: ease-out;
+  }
+  62% {
+    top: 90px;
+    animation-timing-function: ease-in;
+  }
+  78% {
+    top: 190px;
+    animation-timing-function: ease-out;
+  }
+  90% {
+    top: 150px;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    top: 190px;
+    animation-timing-function: ease-out;
+    left: 100%;
+  }
+}
+
+.suelo {
+  position: absolute;
+  top: 260px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #804000;
+}
+
+// Establecer colores aleatorios para las pelotas
+@function random-color() {
+  @return rgb(random(255), random(255), random(255));
+}
+
+.contenedor-pelotas {
+  // Hacer que las pelotas se posicionen relativas a este contenedor
+  position: relative; 
+}
+
+.pelota {
+  position: absolute;
+  animation: rebote 3s linear infinite;
+  fill: green;
+  // Usar el retraso general
+  animation-delay: $delay; 
+  left: 0;
+  top: 0;
+}
+
+// Aplicar colores aleatorios a cada pelota
+@for $i from 1 through 12 {
+  .pelota:nth-child(#{$i}) {
+    // Añadir un retraso progresivo para cada pelota
+    animation-delay: $delay + $delay-increment * $i; 
+    fill: random-color();
+  }
+}
+
+body {
+  overflow-y: hidden;
+}

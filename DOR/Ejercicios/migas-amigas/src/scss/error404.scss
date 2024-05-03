@@ -1,0 +1,13 @@
+.errorPage{
+    &__container{
+        background-color: $color-brown;
+        border-bottom: 1px solid $color-white;
+    }
+    &__title{
+        color: $color-white;
+        border-top: 1px solid $color-white;
+        border-bottom: 1px solid $color-white;
+    }
+    &__image{
+    }
+}

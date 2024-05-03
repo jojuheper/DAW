@@ -1,0 +1,48 @@
+.clasica {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  font-family: "Times New Roman";
+}
+
+.atrevida {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #ff0000;
+  font-family: "Arial";
+}
+
+.formal {
+  background-color: #ddd;
+  border: 1px solid #000;
+  color: #000;
+  font-family: "Georgia";
+}
+
+.colonial {
+  background-color: #ffffcc;
+  border: 1px solid #000;
+  color: #000;
+  font-family: "Courier";
+}
+
+.infantil {
+  background-color: #fff0f5;
+  color: #000;
+  border: 1px solid #ff69b4;
+  font-family: "Comic Sans MS";
+}
+
+body {
+  display: grid;
+  grid-gap: 10px;
+}
+body .clasica,
+body .atrevida,
+body .formal,
+body .colonial,
+body .infantil {
+  padding: 20px;
+}
+
+/*# sourceMappingURL=index.css.map */

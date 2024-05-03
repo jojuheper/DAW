@@ -10,15 +10,37 @@ import empanada4 from "../resources/img/ProductPie/04_Galician_pie.webp";
 export const Empanadas = () => {
   const { t } = useTranslation();
   return (
-    <div>
-      <h1 className="fw-bold">{t("empanada.titleEmpanada")}</h1>
+    <div className="container-fluid m-0 p-0">
+      <div className="empanada__title fs-3 p-3 fw-bold">
+        {t("empanada.titleEmpanada")}
+      </div>
       {/* Summary and Caption for table information */}
       <SummaryTable />
       {/* We do it rough and then we make the component */}
-      <LeftCompose title={t("empanada.product.1.title")} text={t("empanada.product.1.text")} url={empanada1} alt={t("empanada.product.1.title")}/>
-      <RightCompose title={t("empanada.product.2.title")} text={t("empanada.product.2.text")} url={empanada2} alt={t("empanada.product.2.title")}/>
-      <LeftCompose title={t("empanada.product.3.title")} text={t("empanada.product.3.text")} url={empanada3} alt={t("empanada.product.3.title")}/>
-      <RightCompose title={t("empanada.product.4.title")} text={t("empanada.product.4.text")} url={empanada4} alt={t("empanada.product.4.title")}/>
+      <LeftCompose
+        title={t("empanada.product.1.title")}
+        text={t("empanada.product.1.text")}
+        url={empanada1}
+        alt={t("empanada.product.1.title")}
+      />
+      <RightCompose
+        title={t("empanada.product.2.title")}
+        text={t("empanada.product.2.text")}
+        url={empanada2}
+        alt={t("empanada.product.2.title")}
+      />
+      <LeftCompose
+        title={t("empanada.product.3.title")}
+        text={t("empanada.product.3.text")}
+        url={empanada3}
+        alt={t("empanada.product.3.title")}
+      />
+      <RightCompose
+        title={t("empanada.product.4.title")}
+        text={t("empanada.product.4.text")}
+        url={empanada4}
+        alt={t("empanada.product.4.title")}
+      />
     </div>
   );
 };

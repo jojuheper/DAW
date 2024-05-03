@@ -1,3 +1,4 @@
+import { Introduction } from "../components/common/introduction/Introduction";
 import { Project } from "../components/projects/Project";
 
 
@@ -14,7 +15,7 @@ export const Home = () => {
   ];
   return (
     <div>
-      <div>Body</div>
+      <Introduction />
       <Project projects={projects}/>
     </div>
   );

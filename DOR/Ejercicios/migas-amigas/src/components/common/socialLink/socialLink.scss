@@ -1,0 +1,19 @@
+.icon {
+  &__link {
+    text-decoration: none;
+    .facebook,
+    .instagram {
+      fill: $color-white;
+    }
+    .facebook:hover,
+    .instagram:hover {
+      fill: $color-yellow;
+    }
+  }
+}
+
+.bread {
+  background-color: $color-brown;
+  fill: $color-white;
+  color: $color-white;
+}

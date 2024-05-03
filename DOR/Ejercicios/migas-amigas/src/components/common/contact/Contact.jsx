@@ -25,20 +25,27 @@ export const Contact = () => {
     isValidated && onResetForm();
   };
   return (
-    <div>
-      <div>
-        <p>{t("contactPage.form.title")}</p>
-        <p>{t("contactPage.form.text")}</p>
+    <div className="contact__container w-100 h-100 m-0 p-0">
+      <div className="contact__top">
+        <p className="contact__top-title fs-3 m-0 p-3 fw-bold">
+          {t("contactPage.form.title")}
+        </p>
+        <p className="contact__top-text m-0 p-3">
+          {t("contactPage.form.text")}
+        </p>
       </div>
-      <div>
-        <form className="">
-          <div className="mb-3 ">
-            <label htmlFor="fullname" className="form-label">
+      <div className="contact__form-container">
+        <form className="contact__form m-0 p-3 row">
+          <div className="contact__form mb-3 col-md-6">
+            <label
+              htmlFor="fullname"
+              className="contact__form-label fw-bold form-label"
+            >
               {t("contactPage.form.fullname")} *
             </label>
             <input
               type="text"
-              className="form-control"
+              className="contact__form-input form-control"
               name="fullname"
               id="fullname"
               aria-describedby="nameHelp"
@@ -48,13 +55,16 @@ export const Contact = () => {
               onChange={onInputChange}
             />
           </div>
-          <div className="mb-3 ">
-            <label htmlFor="email" className="form-label">
+          <div className="contact__form mb-3 col-md-6">
+            <label
+              htmlFor="email"
+              className="contact__form-label fw-bold form-label"
+            >
               {t("contactPage.form.email")} *
             </label>
             <input
               type="email"
-              className="form-control"
+              className="contact__form-input form-control"
               id="email"
               name="email"
               placeholder={t("contactPage.form.placeholder.email")}
@@ -63,13 +73,16 @@ export const Contact = () => {
               onChange={onInputChange}
             />
           </div>
-          <div className="mb-3">
-            <label htmlFor="message" className="form-label">
+          <div className="contact__form mb-3 col-md-12">
+            <label
+              htmlFor="message"
+              className="contact__form-label fw-bold form-label"
+            >
               {t("contactPage.form.message")} *
             </label>
             <textarea
               type="textarea"
-              className="form-control"
+              className="contact__form-input textArea form-control"
               id="message"
               name="message"
               placeholder={t("contactPage.form.placeholder.message")}
@@ -78,36 +91,50 @@ export const Contact = () => {
               onChange={onInputChange}
             />
           </div>
-          <div className="mb-3 form-check">
-            <input
-              type="checkbox"
-              className="form-check-input"
-              id="privacyPolicy"
-              name="privacyPolicy"
-              required
-              checked={privacyPolicy}
-              onChange={onInputChange}
-            />
-            <label className="form-check-label" htmlFor="privacyPolicy">
-              {t("privacy.policy")} *
-            </label>
+          <div className="contact__form mb-3 form-check col-md-12 w-100">
+            <div className="checkbox-container">
+              <input
+                type="checkbox"
+                className="contact__form-checkbox form-check-input"
+                id="privacyPolicy"
+                name="privacyPolicy"
+                required
+                checked={privacyPolicy}
+                onChange={onInputChange}
+              />
+            </div>
+            <div className="checkbox-container">
+              <label
+                className="contact__form-label form-check-label"
+                htmlFor="privacyPolicy"
+              >
+                {t("privacy.policy")} *
+              </label>
+            </div>
           </div>
-          <div className="mb-3 form-check">
-            <input
-              type="checkbox"
-              className="form-check-input"
-              id="privacyCommunication"
-            />
-            <label className="form-check-label" htmlFor="privacyCommunication">
-              {t("privacy.communication")}
-            </label>
+          <div className="contact__form mb-3 form-check">
+            <div className="checkbox-container">
+              <input
+                type="checkbox"
+                className="contact__form-checkbox form-check-input"
+                id="privacyCommunication"
+              />
+            </div>
+            <div className="checkbox-container">
+              <label
+                className="contact__form-label form-check-label"
+                htmlFor="privacyCommunication"
+              >
+                {t("privacy.communication")}
+              </label>
+            </div>
           </div>
-          <div>
+          <div className="contact__form-bottom d-flex justify-content-center gap-5">
             <button
               type="button"
               name="contactForm"
               value="contactForm"
-              className="btn btn-primary"
+              className="btn contact__form-bottom-reset"
               onClick={onResetForm}
             >
               Reset
@@ -116,7 +143,7 @@ export const Contact = () => {
               type="submit"
               name="contactForm"
               value="contactForm"
-              className="btn btn-primary"
+              className="btn contact__form-bottom-submit"
               onClick={onSubmit}
             >
               Submit

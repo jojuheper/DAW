@@ -15,7 +15,7 @@ export const PasteleriaBolleria = () => {
   const { t } = useTranslation();
   return (
     <div>
-      <h1 className="fw-bold">{t("patisserie.titlePatisserieBoulangerie")}</h1>
+      <div className="pastisserie__title fs-3 p-3 fw-bold">{t("patisserie.titlePatisserieBoulangerie")}</div>
       {/* Summary and Caption for table information */}
       <SummaryTable />
       {/* We do it rough and then we make the component */}

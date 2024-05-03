@@ -1,0 +1,119 @@
+@keyframes rebote {
+  16% {
+    top: 190px;
+    animation-timing-function: ease-out;
+  }
+  32% {
+    top: 33px;
+    animation-timing-function: ease-in;
+  }
+  48% {
+    top: 190px;
+    animation-timing-function: ease-out;
+  }
+  62% {
+    top: 90px;
+    animation-timing-function: ease-in;
+  }
+  78% {
+    top: 190px;
+    animation-timing-function: ease-out;
+  }
+  90% {
+    top: 150px;
+    animation-timing-function: ease-in;
+  }
+  100% {
+    top: 190px;
+    animation-timing-function: ease-out;
+    left: 100%;
+  }
+}
+.suelo {
+  position: absolute;
+  top: 260px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #804000;
+}
+
+.contenedor-pelotas {
+  position: relative;
+}
+
+.pelota {
+  position: absolute;
+  animation: rebote 3s linear infinite;
+  fill: green;
+  animation-delay: 0s;
+  left: 0;
+  top: 0;
+}
+
+.pelota:nth-child(1) {
+  animation-delay: 0.3s;
+  fill: rgb(233, 245, 232);
+}
+
+.pelota:nth-child(2) {
+  animation-delay: 0.6s;
+  fill: rgb(58, 246, 251);
+}
+
+.pelota:nth-child(3) {
+  animation-delay: 0.9s;
+  fill: rgb(100, 208, 46);
+}
+
+.pelota:nth-child(4) {
+  animation-delay: 1.2s;
+  fill: rgb(191, 204, 148);
+}
+
+.pelota:nth-child(5) {
+  animation-delay: 1.5s;
+  fill: rgb(31, 152, 144);
+}
+
+.pelota:nth-child(6) {
+  animation-delay: 1.8s;
+  fill: rgb(143, 212, 9);
+}
+
+.pelota:nth-child(7) {
+  animation-delay: 2.1s;
+  fill: rgb(248, 31, 134);
+}
+
+.pelota:nth-child(8) {
+  animation-delay: 2.4s;
+  fill: rgb(227, 99, 89);
+}
+
+.pelota:nth-child(9) {
+  animation-delay: 2.7s;
+  fill: rgb(77, 108, 116);
+}
+
+.pelota:nth-child(10) {
+  animation-delay: 3s;
+  fill: rgb(159, 93, 14);
+}
+
+.pelota:nth-child(11) {
+  animation-delay: 3.3s;
+  fill: rgb(246, 132, 143);
+}
+
+.pelota:nth-child(12) {
+  animation-delay: 3.6s;
+  fill: rgb(100, 218, 202);
+}
+
+body {
+  overflow-y: hidden;
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,62 @@
+@media (min-width: 576px) and (max-width: 768px){
+    .header {
+        background: var(--bs-cyan) !important;
+        text-align: left !important;
+    }
+
+    .one,
+    .two {
+        padding: 60px !important;
+    }
+
+    .two {
+        background: var(--bs-danger) !important;
+        text-align: end !important;
+    }
+    
+    .three {
+        background: var(--bs-green) !important;
+        text-align: center !important;
+    }
+    
+}
+
+@media (width > 768px){
+    .header {
+        background: var(--bs-green) !important;
+        text-align: left !important;
+    }
+
+    .numbersCol,
+    .numbersRow {
+        height: 400px !important;
+    }
+
+    .one,
+    .two,
+    .three {
+        background: var(--bs-danger) !important;
+        text-align: center !important;
+    }
+
+    .footer1 {
+        text-align: end;
+    }
+    
+    .footer2 {
+        text-align: left;
+    }
+
+}
+
+.one,
+.two,
+.three {
+    font-size: 10vh !important;
+}
+
+.header,
+.footer1,
+.footer2 {
+    font-style: italic;
+}

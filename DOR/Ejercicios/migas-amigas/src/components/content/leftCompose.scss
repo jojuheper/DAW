@@ -1,0 +1,17 @@
+.leftComp {
+    &__title{
+        background: $color-brown;
+        border-top: 2px solid $color-red-light;
+        border-bottom: 2px solid $color-red-light;
+        &-text{
+            color: $color-white;
+        }
+    }
+    &__text {
+        background: $color-brown;
+        color: $color-white;
+        @media (min-width: 768px) {
+            font-size: 20px;
+          }
+    }
+}

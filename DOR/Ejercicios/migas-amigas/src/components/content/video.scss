@@ -1,0 +1,25 @@
+.video {
+  &__text {
+    &--bg {
+      background: $color-brown;
+    }
+    &--text {
+      color: $color-white;
+    }
+    @media (min-width: 768px) {
+      &--title {
+        font-size: 36px;
+      }
+      &--text1,
+      &--text2 {
+        font-size: 24px;
+      }
+    }
+  }
+  &__video {
+    min-height: 400px !important;
+    @media (min-width: 768px) {
+        min-height: 500px !important;
+      }
+  }
+}

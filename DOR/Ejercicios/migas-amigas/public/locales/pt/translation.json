@@ -36,7 +36,7 @@
   },
   "bakery": {
     "navlink": "padaria",
-    "titleBakery": "Esta é a página da padaria",
+    "titleBakery": "O nosso pão",
     "product": {
       "1": {
         "title": "Pão branco",
@@ -82,7 +82,7 @@
   },
   "patisserie": {
     "navlink": "bolos",
-    "titlePatisserieBoulangerie": "Esta é a página da Pastelaria-Boulangerie",
+    "titlePatisserieBoulangerie": "A nossa Pastelaria-Boulangerie",
     "product": {
       "1": {
         "title": "Creme Napolitano",
@@ -120,7 +120,7 @@
   },
   "empanada": {
     "navlink": "tarte",
-    "titleEmpanada": "Esta é a página das Empanadas",
+    "titleEmpanada": "As nossas empanadas",
     "product": {
       "1": {
         "title": "Empanada de Atu",
@@ -172,12 +172,12 @@
     }
   },
   "errorPage": {
-    "titleError404": "Esta é a página de erro 404"
+    "titleError404": "Página não encontrada"
   },
   "footer": {
     "titleFooter": "padaria",
     "titleMenu": "menu",
-    "copyright": "migalhas-amigos"
+    "copyright": "migalhas-amigos José Juan Herrera"
   },
   "privacy": {
     "policy": "Autorizo a recolha e o tratamento dos dados pessoais fornecidos no presente formulário para os fins descritos no presente formulário e na Política de Privacidade.",

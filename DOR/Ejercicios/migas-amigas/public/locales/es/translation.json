@@ -82,7 +82,7 @@
   },
   "patisserie": {
     "navlink": "bollería",
-    "titlePatisserieBoulangerie": "Esta es la página de Pastelería-Bollería",
+    "titlePatisserieBoulangerie": "Nuestra Bollería",
     "product": {
       "1": {
         "title": "Napolitana de Crema",
@@ -120,7 +120,7 @@
   },
   "empanada": {
     "navlink": "empanada",
-    "titleEmpanada": "Esta es la página de Empanadas",
+    "titleEmpanada": "Nuestras Empanadas",
     "product": {
       "1": {
         "title": "Empanada de Atún",
@@ -172,12 +172,12 @@
     }
   },
   "errorPage": {
-    "titleError404": "Esta es la página de Error 404"
+    "titleError404": "No se encontró la página"
   },
   "footer": {
     "titleFooter": "panadería",
     "titleMenu": "menu",
-    "copyright": "migas-amigas"
+    "copyright": "migas-amigas José Juan Herrera"
   },
   "privacy": {
     "policy": "Autorizo la recogida y el tratamiento de los datos personales facilitados en el presente formulario para los fines descritos en el mismo y en la Política de Privacidad.",

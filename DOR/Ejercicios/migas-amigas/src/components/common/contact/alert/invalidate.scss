@@ -1,0 +1,26 @@
+.invalidate {
+  &__top {
+    background: $color-brown;
+    &-title {
+      color: $color-white;
+    }
+    .icon__close {
+      fill: $color-yellow;
+    }
+  }
+  &__middle {
+    background: $color-white;
+    color: $color-brown;
+  }
+  &__button {
+    background: $color-brown;
+    &-btn {
+      background: $color-white;
+      color: $color-brown;
+      &:hover {
+        color: $color-white;
+        border: 1px solid $color-white
+      }
+    }
+  }
+}

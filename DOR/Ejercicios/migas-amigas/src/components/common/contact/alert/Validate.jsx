@@ -27,19 +27,19 @@ export const Validate = () => {
     <div className="modal" id="modalValidate">
       <div className="modal-dialog">
         <div className="modal-content">
-          <div className="modal-header">
+          <div className="validate__top gap-5 modal-header">
             <Icon icon={check} />
-            <h5 className="modal-title">
+            <div className="validate__top-title fs-4 modal-title">
               {t("contactPage.form.alert.ok.title")}
-            </h5>
+            </div>
           </div>
-          <div className="modal-body">
+          <div className="validate__middle modal-body">
             <p>{t("contactPage.form.alert.ok.text")}</p>
           </div>
-          <div className="modal-footer">
+          <div className="validate__button modal-footer">
             <button
               type="button"
-              className="btn btn-secondary close-button"
+              className="btn validate__button-btn close-button"
               data-bs-dismiss="modal"
             >
               {t("contactPage.form.alert.button")}

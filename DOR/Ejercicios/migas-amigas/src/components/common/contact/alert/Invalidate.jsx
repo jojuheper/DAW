@@ -27,19 +27,19 @@ export const Invalidate = () => {
     <div className="modal" id="modalInvalidate">
       <div className="modal-dialog">
         <div className="modal-content">
-          <div className="modal-header">
+          <div className="invalidate__top d-flex gap-5 modal-header">
             <Icon icon={close} />
-            <h5 className="modal-title">
+            <div className="invalidate__top-title fs-4 modal-title">
               {t("contactPage.form.alert.ko.title")}
-            </h5>
+            </div>
           </div>
-          <div className="modal-body">
+          <div className="invalidate__middle p-3 modal-body">
             <p>{t("contactPage.form.alert.ko.text")}</p>
           </div>
-          <div className="modal-footer">
+          <div className="invalidate__button modal-footer">
             <button
               type="button"
-              className="btn btn-secondary close-button"
+              className="btn invalidate__button-btn close-button"
               data-bs-dismiss="modal"
             >
               {t("contactPage.form.alert.button")}

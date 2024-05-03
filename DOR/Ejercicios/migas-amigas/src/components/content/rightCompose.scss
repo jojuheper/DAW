@@ -1,0 +1,17 @@
+.rightComp {
+    &__title{
+        background: $color-white;
+        border-top: 2px solid $color-red-light;
+        border-bottom: 2px solid $color-red-light;
+        &-text{
+            color: $color-brown;
+        }
+    }
+    &__text {
+        background: $color-white;
+        color: $color-brown;
+        @media (min-width: 768px) {
+            font-size: 20px;
+          }
+    }
+}

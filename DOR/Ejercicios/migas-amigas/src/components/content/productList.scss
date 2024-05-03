@@ -1,0 +1,28 @@
+.product {
+  &__background {
+    position: absolute;
+    top: -50px; /* ajustar según sea necesario */
+    left: -50px;
+    width: 120%;
+    height: 110%;
+    z-index: -1;
+    @media (min-width: 768px) {
+      height: 120%;
+    }
+  }
+  &__items {
+    &--container{
+      @media (min-width: 768px) {
+        padding-bottom: 15px;
+      }
+    }
+    &--list {
+      &-title {
+        color: $color-brown !important;
+      }
+      &-text {
+        text-shadow: 2px 2px 12px #443635;
+      }
+    }
+  }
+}

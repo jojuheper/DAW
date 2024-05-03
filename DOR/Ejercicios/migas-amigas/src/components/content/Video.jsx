@@ -1,22 +1,22 @@
 import { useTranslation } from "react-i18next";
-// import videoBread from "../../resources/video/video_comp.mp4";
+import cookie from "../../resources/img/Home_Product/cookie.png";
 
 export const Video = () => {
   const { i18n, t } = useTranslation();
-  
+
   return (
-    <div>
-      <div>
-        <div>{t("homepage.product.video.title")}</div>
-        <p>{t("homepage.product.video.p.1")}</p>
-        <p>{t("homepage.product.video.p.2")}</p>
+    <div className="video__container container-fluid m-0 p-0 position-relative col-12">
+      <div className="video__text w-100 h-100 p-4 position-relative z-0 col-12">
+        <div className="video__text--bg position-absolute top-0 start-0 w-100 h-100 z-0 opacity-20"></div>
+        <img className="video__text--img position-absolute top-0 start-0 z-0 w-100 h-100 opacity-40" src={cookie} alt="background" />
+        <div className="video__text--text position-relative z-0 d-flex flex-column text-start text-md-center">
+          <div className="video__text--title fs-2 fw-bold">{t("homepage.product.video.title")}</div>
+          <p className="video__text--text1">{t("homepage.product.video.p.1")}</p>
+          <p className="video__text--text2">{t("homepage.product.video.p.2")}</p>
+        </div>
       </div>
-      {/* <video width="640" height="360" controls>
-          <source src={videoBread} type="video/mp4"></source>
-        </video> */}
       <iframe
-        width="640"
-        height="360"
+        className="video__video w-100 h-100 col-12"
         src={`https://www.youtube.com/embed/eYdBCKI_Jj0?cc_load_policy=1&cc_lang_pref=${i18n.language}`}
         title="¡Pan de arroz sin gluten! Receta fácil en licuadora"
         style={{ border: "0" }} // Reemplazo de frameBorder

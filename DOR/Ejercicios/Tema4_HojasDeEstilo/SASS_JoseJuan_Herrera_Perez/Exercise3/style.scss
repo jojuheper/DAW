@@ -1,0 +1,46 @@
+//-- variables
+$red: rgb(255, 0, 0);
+$blue: rgb(0, 0, 255);
+$green: rgb(3, 167, 3);
+$yellow: rgb(189, 189, 4);
+$purple: rgb(128, 0, 128);
+
+// Definir la función set-opacity
+@function set-opacity($color, $opacity) {
+  // Convertir el color a RGBA y aplicar la opacidad
+  $rgba: rgba($color, $opacity);
+  // Devolver el color con la opacidad aplicada
+  @return $rgba;
+}
+
+// Lista de colores
+$colors: (
+  "red": $red,
+  "blue": $blue,
+  "green": $green,
+  "yellow": $yellow,
+  "purple": $purple
+);
+
+// Usar @for para recorrer los colores y aplicarlos a las clases
+@for $i from 1 through length($colors) {
+  $name-color: nth(map-keys($colors), $i);
+  $color: map-get($colors, $name-color);
+
+  .text-#{$name-color} {
+    color: $color;
+
+    // Usar @if para establecer la opacidad basada en si el índice es par o impar
+    @if $i % 2 == 0 {
+      background-color: set-opacity(
+        $color,
+        0.1
+      );
+    } @else {
+      background-color: set-opacity(
+        $color,
+        0.2
+      );
+    }
+  }
+}

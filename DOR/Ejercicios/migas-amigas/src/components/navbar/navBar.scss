@@ -1,0 +1,11 @@
+.navbar {
+  &_link {
+    text-decoration: none;
+    &:hover {
+      color: $color-yellow !important;
+    }
+  }
+  .active {
+    color: $color-yellow !important;
+  }
+}

@@ -1,0 +1,82 @@
+//-- variables
+
+$font-classic: "Times New Roman";
+$font-atrevida: "Arial";
+$font-formal: "Georgia";
+$font-colonial: "Courier";
+$font-intantil: "Comic Sans MS";
+
+$border-color-children: #ff69b4;
+$border-color-red: #ff0000;
+
+$color-basic: #000;
+$color-white: #fff;
+$color-grey: #ddd;
+$color-yellow: #ffffcc;
+$color-children: #fff0f5;
+
+@mixin font($font) {
+  font-family: $font;
+}
+
+@mixin background($color) {
+  background-color: $color;
+}
+
+@mixin text-color($color) {
+  color: $color;
+}
+
+@mixin border-option ($color){
+    border: 1px solid $color;
+}
+
+@mixin basic-card {
+  @include border-option($color-basic);
+  color: $color-basic;
+}
+
+.clasica {
+  @include background($color-white);
+  @include basic-card;
+  font-family: $font-classic;
+}
+
+.atrevida {
+  @include background($color-basic);
+  @include text-color($color-white);
+  @include border-option($border-color-red);
+  font-family: $font-atrevida;
+}
+
+.formal {
+    @include background($color-grey);
+    @include basic-card;
+    font-family: $font-formal;
+}
+
+.colonial {
+    @include background($color-yellow);
+    @include basic-card;
+    font-family: $font-colonial;
+}
+
+.infantil {
+    @include background($color-children);
+    @include text-color($color-basic);
+    @include border-option($border-color-children);
+    font-family: $font-intantil;
+}
+
+body{
+    display: grid;
+    grid-gap: 10px;
+
+    .clasica,
+    .atrevida,
+    .formal,
+    .colonial,
+    .infantil {
+        padding: 20px;
+    }
+}

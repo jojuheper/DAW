@@ -1,0 +1,15 @@
+.footer {
+    &__container{
+        background: $color-brown;
+    }
+    &__top{
+        &-title{
+            color: $color-white;
+        }
+    }
+    &__bottom{
+        &--link{
+            text-decoration: none !important;
+        }
+    }
+}
