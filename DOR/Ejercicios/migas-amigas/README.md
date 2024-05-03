@@ -86,3 +86,12 @@ npm install --save prop-types
     - Associating label and input tags with **for**
     - Use **required** in form
     - Put **aria-invalid**
+
+## Exercise #3
+
+- The accesibility will need to understand what can we do for users
+
+## Exercise #4
+
+- Apply style in the whole web
+- Upload web to [Netlify](https://migas-amiga.netlify.app/)
