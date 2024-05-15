@@ -10,6 +10,13 @@
     &__bottom{
         &--link{
             text-decoration: none !important;
+            color: $color-white !important;
+            &:hover {
+                color: $color-orange-light !important;
+            }
+            .copyright {
+                fill: $color-white;
+            }
         }
     }
 }

@@ -48,7 +48,7 @@ export const Contact = () => {
               className="contact__form-input form-control"
               name="fullname"
               id="fullname"
-              aria-describedby="nameHelp"
+              aria-describedby="fullname"
               placeholder={t("contactPage.form.placeholder.fullname")}
               required
               value={fullname}

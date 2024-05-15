@@ -4,9 +4,9 @@ export const RightCompose = ({ title, text, url, alt }) => {
   return (
     <div className="rightComp__container d-flex flex-column m-0 p-0 w-100 h-100">
       <div className="rightComp__title d-flex justify-content-center fs-4 m-0 p-2">
-        <p className="rightComp__title-text d-flex align-items-center fs-4 m-0 p-2 fw-bold">
+        <h2 className="rightComp__title-text d-flex align-items-center m-0 p-2 fw-bold">
           {title}
-        </p>
+        </h2>
       </div>
       <div className="rightComp__bottom d-flex flex-column flex-md-row">
         <div className="col-sm-6">

@@ -12,7 +12,7 @@ export const Inicio = () => {
         className="container-fluid p-0 position-relative"
         style={{ height: "600px" }}
       >
-        <div className="home__image w-100 h-100 position-absolute top-0 start-0 z-0 w-100 h-100">
+        <div className="home__image position-absolute top-0 start-0 z-0 w-100 h-100">
           <img
             src={logo}
             alt="header"

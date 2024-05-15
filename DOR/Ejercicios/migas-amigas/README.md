@@ -95,3 +95,7 @@ npm install --save prop-types
 
 - Apply style in the whole web
 - Upload web to [Netlify](https://migas-amiga.netlify.app/)
+
+- After use bootstrap we need to do a little change 
+
+![finish-Migas-Amigas](image-1.png)

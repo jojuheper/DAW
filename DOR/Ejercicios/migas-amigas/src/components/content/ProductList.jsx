@@ -9,7 +9,7 @@ export const ProductList = () => {
   return (
     <div className="product__container container-fluid m-0 p-0 position-relative d-flex flex-column gap-5 z-0">
       <div className="product__background-container position-absolute top-0 start-0 w-100 h-100 overflow-hidden">
-        <img className="product__background position-absolute z-0 overflor-hidden" style={{ backgroundImage: `url(${bg})`, backgroundRepeat: 'repeat-y', backgroundSize: '100% 300px', border: 'none' }}/>
+        <img className="product__background position-absolute z-0 overflor-hidden" alt="background salmon" style={{ backgroundImage: `url(${bg})`, backgroundRepeat: 'repeat-y', backgroundSize: '100% 300px', border: 'none' }}/>
       </div>
       <div className="product__title z-1">
         <h1 className="fw-bold text-capitalize">{t("homepage.product.title")}</h1>

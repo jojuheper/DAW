@@ -4,9 +4,9 @@ export const LeftCompose = ({ title, text, url, alt }) => {
   return (
     <div className="leftComp__container d-flex  flex-column m-0 p-0 w-100 h-100 container-fluid">
       <div className="leftComp__title d-flex justify-content-center m-0 p-2">
-        <p className="leftComp__title-text d-flex align-items-center fs-4 m-0 p-2 fw-bold">
+        <h2 className="leftComp__title-text d-flex align-items-center m-0 p-2 fw-bold">
           {title}
-        </p>
+        </h2>
       </div>
       <div className="leftComp__bottom d-flex flex-column flex-md-row">
         <div className="col-md-6">
