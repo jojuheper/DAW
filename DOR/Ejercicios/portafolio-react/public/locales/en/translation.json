@@ -1,5 +1,6 @@
 {
   "header": {
+    "selectlanguage": "Select",
     "navbar": {
       "home": "home",
       "about": "about",
@@ -11,6 +12,33 @@
     "counter": {
       "start": "The page has been visited ",
       "end": " times"
+    },
+    "copyright": "2024 All Rights Reserved",
+    "made": "Made by José Juan Herrera"
+  },
+  "introduction": {
+    "me": "Hi, I'm José Juan Herrera",
+    "work": "Full Stack Developer",
+    "place": "I'm a Developer,living in Spain, who likes to find different challenges",
+    "buttons": {
+      "contactme": "Contact Me",
+      "linkedin": "LinkedIn Profile"
+    }
+  },
+  "skills": {
+    "name": "Skills",
+    "programming": "Programming",
+    "softskill": "Soft Skills",
+    "generalskill": "General Skills",
+    "soft": {
+      "communication": "Effective communication",
+      "collaboration": "Collaboration",
+      "dedicated": "Commitment"
+    },
+    "general": {
+      "photo": "Photoshop",
+      "notion": "Notion",
+      "scrum": "Agile Methodology"
     }
   },
   "contact": {

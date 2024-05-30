@@ -1,5 +1,6 @@
 {
   "header": {
+    "selectlanguage": "Selecciona",
     "navbar": {
       "home": "inicio",
       "about": "sobre mi",
@@ -11,6 +12,33 @@
     "counter": {
       "start": "La página ha sido visitada ",
       "end": " veces"
+    },
+    "copyright": "2024 todos los derechos reservados",
+    "made": "Hecho por José Juan Herrera"
+  },
+  "introduction": {
+    "me": "Hola, Soy José Juan Herrera",
+    "work": "Full Stack Developer",
+    "place": "Soy un desarrollador que vive en España y le gusta encontrar retos diferentes",
+    "buttons": {
+      "contactme": "Contáctame",
+      "linkedin": "Perfil de LinkedIn"
+    }
+  },
+  "skills": {
+    "name": "Habilidades",
+    "programming": "Programación",
+    "softskill": "Habilidades Blandas",
+    "generalskill": "Habilidades Generales",
+    "soft": {
+      "communication": "Comunicación efectiva",
+      "collaboration": "Colaboración",
+      "dedicated": "Entregado"
+    },
+    "general": {
+      "photo": "Photoshop",
+      "notion": "Notion",
+      "scrum": "Metodología Ágil"
     }
   },
   "contact": {

@@ -7,11 +7,11 @@ export const SelectLanguage = () => {
     i18n.changeLanguage(target.value);
   };
   return (
-    <div>
-      <label htmlFor="languageSlect">
-        
+    <div className="flex justify-center items-center gap-3 col-span-6 md:order-3 md:col-span-4">
+      <label className="flex justify-center" htmlFor="languageSelect">
       </label>
       <select
+      className="min-h-[44px] flex items-center"
         defaultValue={i18n.language}
         onChange={onChangeLang}
         aria-label="languageSelect"

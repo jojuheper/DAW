@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import cookie from "../../resources/img/Home_Product/cookie.png";
+import audio from "../../resources/audio/texto_migasamigas_ia_tratado.mp3";
 
 export const Video = () => {
   const { i18n, t } = useTranslation();
@@ -14,6 +15,7 @@ export const Video = () => {
           <p className="video__text--text1">{t("homepage.product.video.p.1")}</p>
           <p className="video__text--text2">{t("homepage.product.video.p.2")}</p>
         </div>
+        <audio src={audio} controls autoPlay preload="auto"></audio>
       </div>
       <iframe
         className="video__video w-100 h-100 col-12"

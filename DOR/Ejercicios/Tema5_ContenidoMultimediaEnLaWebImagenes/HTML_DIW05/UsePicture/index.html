@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usando Picture</title>
+  </head>
+  <body>
+    <p>jpg</p>
+    <picture>
+      <source srcset="../resources/resizes/home_bread_468.jpg" media="(min-width: 468px)">
+      <img src="../resources/originales/home_bread.jpg" srcset="../resources/originales/home_bread.jpg" alt="home_bread_jpg">
+    </picture>
+    <picture>
+      <source srcset="../resources/resizes/home_bread_600.jpg" media="(min-width: 600px)">
+      <img src="../resources/originales/home_bread.jpg" srcset="../resources/originales/home_bread.jpg" alt="home_bread_jpg">
+    </picture>
+    <picture>
+      <source srcset="../resources/resizes/home_bread_1024.jpg" media="(min-width: 1000px)">
+      <img src="../resources/originales/home_bread.jpg" srcset="../resources/originales/home_bread.jpg" alt="home_bread_jpg">
+    </picture>
+    <p>png</p>
+    <picture>
+      <source srcset="../resources/resizes/home_bread_468.png" media="(min-width: 468px)">
+      <img src="../resources/png/home_bread.png" srcset="../resources/png/home_bread.png" alt="home_bread_png">
+    </picture>
+    <picture>
+      <source srcset="../resources/resizes/home_bread_600.png" media="(min-width: 600px)">
+      <img src="../resources/png/home_bread.png" srcset="../resources/png/home_bread.png" alt="home_bread_png">
+    </picture>
+    <picture>
+      <source srcset="../resources/resizes/home_bread_1000.png" media="(min-width: 1000px)">
+      <img src="../resources/png/home_bread.png" srcset="../resources/png/home_bread.png" alt="home_bread_png">
+    </picture>
+    <p>webp</p>
+    <picture>
+      <source srcset="../resources/resizes/home_bread_468.webp" media="(min-width: 468px)">
+      <img src="../resources/webp/home_bread.webp" srcset="../resources/webp/home_bread.webp" alt="home_bread_webp">
+    </picture>
+    <picture>
+      <source srcset="../resources/resizes/home_bread_600.webp" media="(min-width: 600px)">
+      <img src="../resources/webp/home_bread.webp" srcset="../resources/webp/home_bread.webp" alt="home_bread_webp">
+    </picture>
+    <picture>
+      <source srcset="../resources/resizes/home_bread_1000.webp" media="(min-width: 1000px)">
+      <img src="../resources/webp/home_bread.webp" srcset="../resources/webp/home_bread.webp" alt="home_bread_webp">
+    </picture>
+    <p>avif no pude convertirla</p>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+.nav.default-nav {
+    min-height: 44px;
+    min-width: 44px;
+  margin: 32px;
+  background: #FFF;
+  display: flex;
+
+  svg {
+    width: 16px;
+    height: 16px;
+    fill: blue;
+  }
+}

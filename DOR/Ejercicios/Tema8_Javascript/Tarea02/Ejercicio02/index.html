@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Minijuego de Adivinar Personaje</title>
+  </head>
+  <body>
+    <h1>Minijuego de Adivinar Personaje</h1>
+    <p>Adivina el personaje del Señor de los Anillos</p>
+    <p>Personaje:</p>
+    <p id="character"></p>
+    <input type="text" id="guess" placeholder="Escribe tu adivinanza aquí" />
+    <button onclick="checkGuess()">Adivinar</button>
+    <p id="attempts" class="message"></p>
+    <p id="result" class="message"></p>
+    <div class="image">
+      <img id="characterImage" src="" alt="" style="display: none" />
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

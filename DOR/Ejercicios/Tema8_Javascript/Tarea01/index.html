@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 class="title">Formulario</h1>
+      <p class="textInfo">No tiene formato responsive, solo desktop</p>
+      <form method="POST">
+        <div>
+          <div>
+            <fieldset>
+              <legend class="titleLegend">DATOS PERSONALES</legend>
+              <div class="info">
+                <span class="asteris">* </span><label for="name">Nombre:</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  maxlength="20"
+                  required
+                  title="Introduzca su nombre"
+                />
+                <span class="asteris">* </span
+                ><label for="first">Primer Apellido:</label>
+                <input
+                  type="text"
+                  id="first"
+                  name="first"
+                  maxlength="20"
+                  required
+                  title="Introduzca su primer apellido"
+                />
+                <span class="asteris">* </span
+                ><label for="second">Segundo Apellido:</label>
+                <input
+                  type="text"
+                  id="second"
+                  name="second"
+                  maxlength="20"
+                  required
+                  title="Introduzca su segundo apellido"
+                />
+              </div>
+              <div class="info">
+                <span class="asteris">* </span><span>Sexo:</span>
+                <input
+                  type="radio"
+                  id="sex1"
+                  name="sex"
+                  value="hombre"
+                  required
+                  title="Sexo hombre"
+                />
+                <label for="sex1">Hombre</label>
+                <input
+                  type="radio"
+                  id="sex2"
+                  name="sex"
+                  value="mujer"
+                  required
+                  title="Sexo mujer"
+                />
+                <label for="sex2">Mujer</label>
+              </div>
+              <div class="info">
+                <span class="asteris">* </span><span>Grupo de edad:</span>
+                <input
+                  type="radio"
+                  id="age1"
+                  name="age"
+                  value="menor de 20"
+                  required
+                  title="Edad menos de 20"
+                />
+                <label for="age1">Menor de 20</label>
+                <input
+                  type="radio"
+                  id="age2"
+                  name="age"
+                  value="de 20 a 35"
+                  required
+                  title="Edad de 20 a 35"
+                />
+                <label for="age2">20-35</label>
+                <input
+                  type="radio"
+                  id="age3"
+                  name="age"
+                  value="de 36 a 50"
+                  required
+                  title="Edad de 36 a 50"
+                />
+                <label for="age3">36-50</label>
+                <input
+                  type="radio"
+                  id="age4"
+                  name="age"
+                  value="mayor de 50"
+                  required
+                  title="Edad mayor de 50"
+                />
+                <label for="age4">Mayor de 50</label>
+              </div>
+              <div class="info">
+                <span class="asteris">* </span
+                ><label for="country">Pais de nacimiento:</label>
+                <select
+                  name="country"
+                  id="country"
+                  required
+                  title="Escoja su nacionalidad, en que país nació"
+                >
+                  <option value="Alemania">Alemania</option>
+                  <option value="Bolivia">Bolivia</option>
+                  <option value="Canada">Canada</option>
+                  <option value="Dinamarca">Dinamarca</option>
+                  <option value="España">España</option>
+                  <option value="Finlandia">Finlandia</option>
+                  <option value="Grecia">Grecia</option>
+                  <option value="Holanda">Holanda</option>
+                  <option value="Italia">Italia</option>
+                  <option value="Luxemburgo">Luxemburgo</option>
+                </select>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend class="titleLegend">DATOS BANCARIOS</legend>
+              <div class="info">
+                <label for="ccc">C.C.C</label>
+                <input
+                  type="text"
+                  name="ccc"
+                  id="ccc"
+                  maxlength="20"
+                  title="Número de cuenta corriente"
+                />
+              </div>
+              <div class="info">
+                <span>Tipo de cuenta:</span>
+                <input
+                  type="radio"
+                  id="save"
+                  name="save"
+                  value="save"
+                  title="Escoja su cuenta de ahorros"
+                />
+                <label for="save">De ahorro</label>
+                <input
+                  type="radio"
+                  id="current"
+                  name="save"
+                  value="current"
+                  title="Escoja su cuenta corriente"
+                />
+                <label for="current">Corriente</label>
+              </div>
+              <div class="info">
+                <span>Tipo de sucursal:</span>
+                <input
+                  type="radio"
+                  id="bank"
+                  name="bank"
+                  value="bank"
+                  title="Usa banco"
+                />
+                <label for="bank">Banco</label>
+                <input
+                  type="radio"
+                  id="box"
+                  name="bank"
+                  value="box"
+                  title="Usa caja de ahorro"
+                />
+                <label for="box">Caja</label>
+              </div>
+              <div class="serviceContainer">
+                <div>Servicios contratados:</div>
+                <div class="checkboxOptions">
+                  <div>
+                    <input
+                      type="checkbox"
+                      id="payroll"
+                      name="payroll"
+                      value="payroll"
+                      title="Servicio para domiciliar la nómina"
+                    />
+                    <label for="payroll">Nómina domiciliada</label>
+                    <input
+                      type="checkbox"
+                      id="mortgage"
+                      name="mortgage"
+                      value="mortgage"
+                      title="Servicio para préstamo de hipoteca"
+                    />
+                    <label for="mortgage">Préstamo hipotecario</label>
+                  </div>
+                  <div>
+                    <input
+                      type="checkbox"
+                      id="personal"
+                      name="personal"
+                      value="personal"
+                      title="Servicio para préstamo personal"
+                    />
+                    <label for="personal">Préstamo personal</label>
+                    <input
+                      class="boxSecurity"
+                      type="checkbox"
+                      id="safety"
+                      name="safety"
+                      value="safety"
+                      title="Servicio para tener una caja de seguridad para guardar documentos"
+                    />
+                    <label for="safety">Caja de seguridad</label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend class="titleLegend">OTROS DATOS DE INTERÉS</legend>
+              <div class="interestContainer">
+                <div class="interestColumn">
+                  <div>
+                    <span
+                      >¿Está usted interesado en alguno de estos temas?</span
+                    >
+                  </div>
+                  <div class="interestRow">
+                    <div class="interest">
+                      <div class="item">
+                        <input
+                          type="checkbox"
+                          id="books"
+                          name="books"
+                          value="books"
+                          title="Interés en Libros"
+                        />
+                        <label for="books">Libros</label>
+                      </div>
+                      <div class="item">
+                        <input
+                          type="checkbox"
+                          id="course"
+                          name="course"
+                          value="course"
+                          title="Interés en Cursos"
+                        />
+                        <label for="course">Cursos</label>
+                      </div>
+                      <div class="item">
+                        <input
+                          type="checkbox"
+                          id="bet"
+                          name="bet"
+                          value="bet"
+                          title="Interés en Apuestas"
+                        />
+                        <label for="bet">Apuestas</label>
+                      </div>
+                    </div>
+                    <div class="interest">
+                      <div class="item">
+                        <input
+                          type="checkbox"
+                          id="travel"
+                          name="travel"
+                          value="travel"
+                          title="Interés en Viajes"
+                        />
+                        <label for="travel">Viajes</label>
+                      </div>
+                      <div class="item">
+                        <input
+                          type="checkbox"
+                          id="insurance"
+                          name="insurance"
+                          value="insurance"
+                          title="Interés en Seguros"
+                        />
+                        <label for="insurance">Seguros</label>
+                      </div>
+                      <div class="item">
+                        <input
+                          type="checkbox"
+                          id="languages"
+                          name="languages"
+                          value="languages"
+                          title="Interés en Idiomas"
+                        />
+                        <label for="languages">Idiomas</label>
+                      </div>
+                    </div>
+                    <div class="interest">
+                      <div class="item">
+                        <input
+                          type="checkbox"
+                          id="it"
+                          name="it"
+                          value="it"
+                          title="interés en Informática"
+                        />
+                        <label for="it">Informática</label>
+                      </div>
+                      <div class="item">
+                        <input
+                          type="checkbox"
+                          id="music"
+                          name="music"
+                          value="music"
+                          title="Interés en Música"
+                        />
+                        <label for="music">Música</label>
+                      </div>
+                      <div class="item">
+                        <input
+                          type="checkbox"
+                          id="job"
+                          name="job"
+                          value="job"
+                          title="Interés en Empleo"
+                        />
+                        <label for="job">Empleo</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="interestColumn">
+                  <div>
+                    <label for="option">Otros temas:</label>
+                  </div>
+                  <div class="area">
+                    <textarea
+                      name="option"
+                      id="option"
+                      placeholder="Escriba aquí sus temas de interés"
+                      title="Exponga algún tema de interés que no se ha nombrado antes"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+          <div class="info">
+            <span class="asterisInfo">* campos obligatorios.</span>
+          </div>
+          <div>
+            <div class="buttonContainer">
+              <button class="button" type="submit" title="Enviar datos">
+                Enviar datos del formulario
+              </button>
+              <button class="button" type="reset" title="Borrar datos">
+                Limpiar datos del formulario
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

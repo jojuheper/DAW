@@ -1,22 +1,22 @@
-import { Introduction } from "../components/common/introduction/Introduction";
+import { Element } from "react-scroll";
+import { Skills } from "../components/common/skill/Skills";
 import { Project } from "../components/projects/Project";
-
+import { Contact } from "./Contact";
+import { About } from "../components/about/About";
 
 export const Home = () => {
-  const projects = [
-    {
-      id: 1,
-      title: "java",
-    },
-    {
-      id: 2,
-      title: "react",
-    },
-  ];
   return (
-    <div>
-      <Introduction />
-      <Project projects={projects}/>
-    </div>
+    <section>
+      <Element name="about">
+        <About />
+      </Element>
+      <Skills />
+      <Element name="project">
+        <Project />
+      </Element>
+      <Element name="contact">
+        <Contact />
+      </Element>
+    </section>
   );
 };

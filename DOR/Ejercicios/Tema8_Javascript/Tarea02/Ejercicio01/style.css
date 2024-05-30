@@ -1,0 +1,21 @@
+#table {
+    border: 1px solid black;
+}
+#table td {
+    border: 1px solid black;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.button {
+    margin-top: 10px;
+}

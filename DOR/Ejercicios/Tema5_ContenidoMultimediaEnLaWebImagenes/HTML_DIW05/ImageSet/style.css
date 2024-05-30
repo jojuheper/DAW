@@ -1,0 +1,31 @@
+.jpg {
+  background-image: image-set(
+    url("../resources/resizes/home_bread_468.jpg") 1x,
+    url("../resources/resizes/home_bread_600.jpg") 2x,
+    url("../resources/resizes/home_bread_1024.jpg") 3x
+  );
+}
+.png {
+  background-image: image-set(
+    url("../resources/resizes/home_bread_468.png") 1x,
+    url("../resources/resizes/home_bread_600.png") 2x,
+    url("../resources/resizes/home_bread_1000.png") 3x
+  );
+}
+.webp {
+  background-image: image-set(
+    url("../resources/resizes/home_bread_468.webp") 1x,
+    url("../resources/resizes/home_bread_600.webp") 2x,
+    url("../resources/resizes/home_bread_1000.webp") 3x
+  );
+}
+
+picture {
+  display: block;
+  width: 100%;
+  max-width: 1200px; /* Ajusta este valor según sea necesario */
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px; /* Espacio entre los <picture> elementos */
+}

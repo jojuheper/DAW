@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Tarea</title>
+  </head>
+  <body>
+    <div>
+        <h1>Video Normal</h1>
+        <video controls>
+            <source src="./videos/SingingAtNight.avif" type="video/avif" />
+          <source src="./videos/SingingAtNight.mp4" type="video/mp4" />
+          Tu navegador no soporta la etiqueta de video.
+        </video>
+      </div>
+      <div>
+        <h1>Video autoplay y mute</h1>
+        <video autoplay muted controls>
+          <source src="./videos/SingingAtNight.mp4" type="video/mp4" />
+          <source src="./videos/SingingAtNight.avif" type="video/avif" />
+          Tu navegador no soporta la etiqueta de video.
+        </video>
+      </div>
+      <div>
+        <h1>Video preload</h1>
+        <span>preload no tiene un valor concreto, se hace colocando segundos específicos</span>
+        <div id="loadingMessage2">Cargando video...</div>
+        <video id="videoAutoplay" autoplay muted controls>
+          <source src="./videos/SingingAtNight.mp4" type="video/mp4" />
+          <source src="./videos/SingingAtNight.avif" type="video/avif" />
+          Tu navegador no soporta la etiqueta de video.
+        </video>
+      </div>
+      <div>
+        <h1>Video start at 10 sec</h1>
+        <video autoplay muted controls>
+          <source src="./videos/SingingAtNight.mp4#t=10" type="video/mp4" />
+          <source src="./videos/SingingAtNight.avif#t=10" type="video/avif" />
+          Tu navegador no soporta la etiqueta de video.
+        </video>
+      </div>
+      <div>
+        <h1>Casablanca Final Scene Video</h1>
+        <video autoplay muted controls>
+          <source src="./videos/CasablancaFinalScene.mp4" type="video/mp4"/>
+          <track src="./videos/CasablancaFinalScene.vtt" kind="subtitles" srclang="en" label="English" default>
+          Tu navegador no soporta la etiqueta de video.
+        </video>
+      </div>
+      <div>
+        <h1>Casablanca Final Scene iFrame</h1>
+        <span>No contiene control de muteado</span>
+        <br/>
+        <iframe src="./videos/CasablancaFinalScene.mp4" width="480px" height="360px" frameborder="0">
+        </iframe>
+      </div>
+      <script src="./index.js"></script>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { useForm } from "../../../hooks/useForm";
 import { SendEmail } from "./SendEmail";
 import { contactForm } from "../../../validations/contactForm";
@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 
 export const FormContact = () => {
   const { t } = useTranslation();
-  const nameInputRef = useRef(null);
+  // const nameInputRef = useRef(null);
   const { formState, onInputChange, onResetForm } = useForm({
     name: "",
     surname: "",
@@ -26,15 +26,15 @@ export const FormContact = () => {
     setValidated(isValidated);
     onResetForm();
   };
-  useEffect(() => {
-    // Enfocar el input de nombre cuando la página se carga
-    nameInputRef.current.focus();
-  }, []);
+  // useEffect(() => {
+  //   // Enfocar el input de nombre cuando la página se carga
+  //   nameInputRef.current.focus();
+  // }, []);
 
   return (
-    <div>
-      <form onSubmit={onSubmit}>
-        <div className="space-y-12">
+    <div className="mt-5 flex justify-center rounded-2xl border-4 border-slate-50 shadow-2xl shadow-blue-300">
+      <form onSubmit={onSubmit} className="w-[80%]">
+        <div>
           <div className="">
             <div className="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6"></div>
           </div>
@@ -44,7 +44,7 @@ export const FormContact = () => {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium leading-6"
+                  className="block text-sm font-bold leading-6"
                 >
                   {t("contact.form.field.name")}
                 </label>
@@ -55,10 +55,10 @@ export const FormContact = () => {
                     id="name"
                     placeholder={t("contact.form.placeholder.name")}
                     required
-                    className="block w-full rounded-md border-0 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-white focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-blue-600 text-blue-600 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     value={name}
                     onChange={onInputChange}
-                    ref={nameInputRef}
+                    // ref={nameInputRef}
                   />
                 </div>
               </div>
@@ -66,7 +66,7 @@ export const FormContact = () => {
               <div className="sm:col-span-3">
                 <label
                   htmlFor="surname"
-                  className="block text-sm font-medium leading-6"
+                  className="block text-sm font-bold leading-6"
                 >
                   {t("contact.form.field.surname")}
                 </label>
@@ -77,7 +77,7 @@ export const FormContact = () => {
                     id="surname"
                     placeholder={t("contact.form.placeholder.surname")}
                     required
-                    className="block w-full rounded-md border-0 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-blue-600 text-blue-600 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     value={surname}
                     onChange={onInputChange}
                   />
@@ -87,7 +87,7 @@ export const FormContact = () => {
               <div className="sm:col-span-6">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium leading-6"
+                  className="block text-sm font-bold leading-6"
                 >
                   {t("contact.form.field.email")}
                 </label>
@@ -99,7 +99,7 @@ export const FormContact = () => {
                     autoComplete="email"
                     placeholder={t("contact.form.placeholder.email")}
                     required
-                    className="block w-full rounded-md border-0 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-blue-600 text-blue-600 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     value={email}
                     onChange={onInputChange}
                   />
@@ -108,7 +108,7 @@ export const FormContact = () => {
               <div className="sm:col-span-6">
                 <label
                   htmlFor="subject"
-                  className="block text-sm font-medium leading-6"
+                  className="block text-sm font-bold leading-6"
                 >
                   {t("contact.form.field.subject")}
                 </label>
@@ -119,7 +119,7 @@ export const FormContact = () => {
                     type="text"
                     autoComplete="additional-name"
                     placeholder={t("contact.form.placeholder.subject")}
-                    className="block w-full rounded-md border-0 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-blue-600 text-blue-600 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     value={subject}
                     onChange={onInputChange}
                   />
@@ -129,7 +129,7 @@ export const FormContact = () => {
               <div className="col-span-full">
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium leading-6"
+                  className="block text-sm font-bold leading-6"
                 >
                   {t("contact.form.field.message")}
                 </label>
@@ -139,7 +139,7 @@ export const FormContact = () => {
                     name="message"
                     rows={3}
                     placeholder={t("contact.form.placeholder.message")}
-                    className="block w-full rounded-md border-0 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-blue-600 text-blue-600 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     value={message}
                     onChange={onInputChange}
                   />
@@ -148,7 +148,7 @@ export const FormContact = () => {
               <div className="col-span-full">
                 <button
                   type="button"
-                  className="mr-3 rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="min-h-[44px] mr-3 rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-[#e6e6e6] shadow-sm hover:bg-white hover:text-blue-600 hover:border-2 hover:border-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                   onClick={onResetForm}
                 >
                   {t("contact.form.field.reset")}
@@ -156,7 +156,7 @@ export const FormContact = () => {
                 <button
                   type="submit"
                   onClick={onSubmit}
-                  className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  className="min-h-[44px] rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-[#e6e6e6] shadow-sm hover:bg-white hover:text-blue-600 hover:border-2 hover:border-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   {t("contact.form.field.send")}
                 </button>
